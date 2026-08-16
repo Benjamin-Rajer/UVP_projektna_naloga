@@ -57,7 +57,7 @@ def izlusci_podatke_sezona(soup, leto):
 
         for vrstica in vrstice:
 
-            if vrstica["class"] == "thead": # vrstica, v kateri piše ime divizije
+            if "thead" in vrstica.get("class", []): # vrstica, v kateri piše ime divizije
                 divizija = POM.PREVAJALNIK_DIVIZIJE[vrstica.find("strong").text]
                 continue
 
@@ -123,5 +123,5 @@ def izlusci_podatke_sezona(soup, leto):
 with open("UVP_projektna_naloga/spletne_strani/sezona_2026.html", "r",  encoding="ISO-8859-1") as dat:
     soup1 = BeautifulSoup(dat.read(), "html.parser")
 
-print(izlusci_podatke_sezona(soup1))
+print(izlusci_podatke_sezona(soup1, 2026))
 
