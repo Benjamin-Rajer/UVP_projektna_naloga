@@ -311,3 +311,140 @@ translate all NBA division names into slovene and give them to me in the form of
 >[3]: https://www.nba.com/news/about?utm_source=chatgpt.com "About The NBA | NBA.com"
 >
 
+### Pogovor 5
+
+**Jaz:**  
+how do i save to CSV using dictwriter in python?
+
+**ChatGPT:**  
+>You use `csv.DictWriter` by:
+>
+>1. Opening the CSV file in write mode.
+>2. Creating a `DictWriter` with the column names (`fieldnames`).
+>3. Writing the header.
+>4. Writing dictionaries as rows.
+>
+>For example:
+>
+>```python
+>import csv
+>
+>dati = [
+>    {"id": 1, "ime": "Lakers", "leto": 2025},
+>    {"id": 2, "ime": "Celtics", "leto": 2025}
+>]
+>
+>with open("podatki.csv", "w", newline="", encoding="utf-8") as datoteka:
+>    writer = csv.DictWriter(
+>        datoteka,
+>        fieldnames=["id", "ime", "leto"]
+>    )
+>
+>    writer.writeheader()
+>    writer.writerows(dati)
+>```
+>
+>This produces:
+>
+>```text
+>id,ime,leto
+>1,Lakers,2025
+>2,Celtics,2025
+>```
+>
+>### If you're writing one row at a time
+>
+>This is probably more relevant to your scraping project:
+>
+>```python
+>with open("podatki.csv", "w", newline="", encoding="utf-8") as datoteka:
+>    writer = csv.DictWriter(
+>        datoteka,
+>        fieldnames=["id", "ime", "leto"]
+>    )
+>
+>    writer.writeheader()
+>
+>    for vrstica in podatki:
+>        writer.writerow(vrstica)
+>```
+>
+>Where each `vrstica` is a dictionary such as:
+>
+>```python
+>{
+>    "id": "LAL",
+>    "ime": "Los Angeles Lakers",
+>    "leto": 2025
+>}
+>```
+>
+>**Important:** the dictionary keys should correspond to your `fieldnames`. This makes `DictWriter` particularly convenient for your project because your scraping functions can return dictionaries with named columns, rather than having to worry about the exact column position.
+
+**Jaz:**  
+is there a way to add rows for each year i'm processing instead of overwriting the file every time?
+
+**ChatGPT:**  
+>Yes. Open the file in **append mode** (`"a"`) instead of write mode (`"w"`).
+>
+>The main thing to watch out for is the header: you only want to write `writeheader()` when the file is new/empty.
+>
+>For your project, you could do:
+>
+>```python
+>import csv
+>import os
+>
+>with open("podatki.csv", "a", newline="", encoding="utf-8") as datoteka:
+>    writer = csv.DictWriter(
+>        datoteka,
+>        fieldnames=["id", "ime", "leto"]
+>    )
+>
+>    if os.path.getsize("podatki.csv") == 0:
+>        writer.writeheader()
+>
+>    writer.writerows(podatki)
+>```
+>
+>Then you can process your years one after another:
+>
+>```python
+>for leto in leta:
+>    podatki = izlusci_podatke(soup, leto)
+>
+>    with open("podatki.csv", "a", newline="", encoding="utf-8") as datoteka:
+>        writer = csv.DictWriter(
+>            datoteka,
+>            fieldnames=["id", "ime", "leto"]
+>        )
+>
+>        if os.path.getsize("podatki.csv") == 0:
+>            writer.writeheader()
+>
+>        writer.writerows(podatki)
+>```
+>
+>So if you process **2020, 2021, 2022**, the rows for each year are simply added underneath the previous ones rather than replacing them.
+>
+>### An even cleaner approach
+>
+>Since you're scraping all the years in one run, I'd actually recommend opening the CSV **once** and then adding all the years:
+>
+>```python
+>with open("podatki.csv", "w", newline="", encoding="utf-8") as datoteka:
+>    writer = csv.DictWriter(
+>        datoteka,
+>        fieldnames=["id", "ime", "leto"]
+>    )
+>
+>    writer.writeheader()
+>
+>    for leto in leta:
+>        podatki = izlusci_podatke(soup, leto)
+>        writer.writerows(podatki)
+>```
+>
+>This gives you one clean CSV containing all years, and you don't need append mode at all.
+>
+>If you're running the scraper **separately for each year**, then `"a"` is the appropriate choice.

@@ -7,14 +7,19 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+LETA = range(1980, 2027)
 
-#-------------------------------URL-JI---------------------------------
+#============================ URL-JI ===================================
+
 # podatki o sezoni
 def SEZONA_URL(leto):
+    return f"https://www.basketball-reference.com/leagues/NBA_{leto}.html"
+
+def SEZONA_IGRE_URL(leto):
     return f"https://www.basketball-reference.com/leagues/NBA_{leto}_standings.html"
 
 # končnica sezone, 
-def KONCNICA_SEZONE_URL(leto):
+def KONCNICA_URL(leto):
     return f"https://www.basketball-reference.com/playoffs/NBA_{leto}.html"
 
 # podatki o vseh tekmah, razdeljenih po mesecih - oktober do junij
@@ -30,13 +35,12 @@ def EKIPA_URL(koda, leto):
 def IGRALEC_URL(id):
     return f"https://www.basketball-reference.com/players/{id[0]}/{id}.html"
 
-
 # podatki o igralcu v sezoni
 def IGRALEC_SEZONA_URL(id, leto):
     return f"https://www.basketball-reference.com/players/{id[0]}/{id}/gamelog/{leto}/"
 
 
-#------------------------------PREVAJALNIK-------------------------------------
+#============================= PREVAJALNIK ==================================
 
 PREVAJALNIK_DIVIZIJE = {
     # trenutne

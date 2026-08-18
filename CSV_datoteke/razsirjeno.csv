@@ -1,0 +1,1315 @@
+id,ime,leto,zmage doma,porazi doma,zmage v gosteh,porazi v gosteh,zmage nevtralno,porazi nevtralno,zmage <= 3,porazi <= 3,zmage >= 10,porazi >= 10
+BOS,Boston Celtics,1980,35,6,26,15,,,8,7,34,5
+LAL,Los Angeles Lakers,1980,37,4,23,18,,,11,5,29,6
+PHI,Philadelphia 76ers,1980,36,5,23,18,,,17,3,24,8
+SEA,Seattle SuperSonics,1980,33,8,23,18,,,10,6,25,7
+PHO,Phoenix Suns,1980,37,5,18,22,,,10,4,27,12
+ATL,Atlanta Hawks,1980,32,9,18,23,,,8,11,19,11
+MIL,Milwaukee Bucks,1980,28,12,21,21,,,13,10,23,12
+KCK,Kansas City Kings,1980,30,11,17,24,,,10,11,22,9
+HOU,Houston Rockets,1980,29,12,12,29,,,15,7,17,16
+SAS,San Antonio Spurs,1980,27,14,14,27,,,7,7,13,13
+WSB,Washington Bullets,1980,24,17,15,26,,,11,9,10,24
+NYK,New York Knicks,1980,25,16,14,27,,,6,10,13,21
+POR,Portland Trail Blazers,1980,26,15,12,29,,,11,9,16,16
+CLE,Cleveland Cavaliers,1980,28,13,9,32,,,8,13,18,15
+IND,Indiana Pacers,1980,26,15,11,30,,,8,6,16,17
+SDC,San Diego Clippers,1980,24,17,11,30,,,5,12,14,27
+NJN,New Jersey Nets,1980,22,19,12,29,,,5,12,16,17
+CHI,Chicago Bulls,1980,21,20,9,32,,,7,9,7,20
+DEN,Denver Nuggets,1980,24,17,6,35,,,5,7,12,28
+GSW,Golden State Warriors,1980,15,26,9,32,,,2,14,13,22
+UTA,Utah Jazz,1980,17,24,7,34,,,6,6,8,35
+DET,Detroit Pistons,1980,13,28,3,38,,,4,9,6,41
+BOS,Boston Celtics,1981,35,6,27,14,,,11,6,29,9
+PHI,Philadelphia 76ers,1981,37,4,25,16,,,8,5,38,7
+MIL,Milwaukee Bucks,1981,34,7,26,15,,,7,5,36,9
+PHO,Phoenix Suns,1981,36,5,21,20,,,9,4,36,10
+LAL,Los Angeles Lakers,1981,30,11,24,17,,,9,9,19,9
+SAS,San Antonio Spurs,1981,34,7,18,23,,,14,4,21,16
+NYK,New York Knicks,1981,28,13,22,19,,,17,5,19,13
+CHI,Chicago Bulls,1981,26,15,19,22,,,7,7,26,15
+POR,Portland Trail Blazers,1981,30,11,15,26,,,10,8,16,17
+IND,Indiana Pacers,1981,27,14,17,24,,,6,13,17,15
+HOU,Houston Rockets,1981,25,16,15,26,,,12,14,13,13
+KCK,Kansas City Kings,1981,24,17,16,25,,,11,10,13,16
+GSW,Golden State Warriors,1981,26,15,13,28,,,10,13,9,14
+WSB,Washington Bullets,1981,26,15,13,28,,,3,8,28,23
+DEN,Denver Nuggets,1981,23,18,14,27,,,11,14,16,13
+SDC,San Diego Clippers,1981,22,19,14,27,,,5,10,20,25
+SEA,Seattle SuperSonics,1981,22,19,12,29,,,10,9,11,20
+ATL,Atlanta Hawks,1981,20,21,11,30,,,7,18,9,18
+CLE,Cleveland Cavaliers,1981,20,21,8,33,,,7,9,12,27
+UTA,Utah Jazz,1981,20,21,8,33,,,11,6,7,31
+NJN,New Jersey Nets,1981,16,25,8,33,,,9,8,9,32
+DET,Detroit Pistons,1981,14,27,7,34,,,8,13,6,27
+DAL,Dallas Mavericks,1981,11,30,4,37,,,4,8,4,35
+BOS,Boston Celtics,1982,35,6,28,13,,,13,4,29,8
+PHI,Philadelphia 76ers,1982,32,9,26,15,,,9,7,27,5
+LAL,Los Angeles Lakers,1982,30,11,27,14,,,13,7,27,6
+MIL,Milwaukee Bucks,1982,31,10,24,17,,,6,9,30,8
+SEA,Seattle SuperSonics,1982,31,10,21,20,,,12,8,26,11
+SAS,San Antonio Spurs,1982,29,12,19,22,,,4,3,24,15
+DEN,Denver Nuggets,1982,29,12,17,24,,,7,5,22,16
+HOU,Houston Rockets,1982,25,16,21,20,,,14,10,15,16
+PHO,Phoenix Suns,1982,31,10,15,26,,,9,9,24,10
+GSW,Golden State Warriors,1982,28,13,17,24,,,10,7,19,18
+NJN,New Jersey Nets,1982,25,16,19,22,,,6,8,21,19
+WSB,Washington Bullets,1982,22,19,21,20,,,10,10,17,11
+ATL,Atlanta Hawks,1982,24,17,18,23,,,7,9,20,11
+POR,Portland Trail Blazers,1982,27,14,15,26,,,6,9,19,16
+DET,Detroit Pistons,1982,23,18,16,25,,,8,8,12,19
+IND,Indiana Pacers,1982,25,16,10,31,,,10,6,12,20
+CHI,Chicago Bulls,1982,22,19,12,29,,,7,15,14,22
+NYK,New York Knicks,1982,19,22,14,27,,,9,12,13,21
+KCK,Kansas City Kings,1982,23,18,7,34,,,8,4,10,25
+DAL,Dallas Mavericks,1982,16,25,12,29,,,9,8,7,24
+UTA,Utah Jazz,1982,18,23,7,34,,,3,7,8,33
+SDC,San Diego Clippers,1982,11,30,6,35,,,4,10,4,33
+CLE,Cleveland Cavaliers,1982,9,32,6,35,,,4,13,2,35
+PHI,Philadelphia 76ers,1983,35,6,30,11,,,7,4,39,6
+LAL,Los Angeles Lakers,1983,33,8,25,16,,,13,5,34,10
+BOS,Boston Celtics,1983,33,8,23,18,,,7,4,29,7
+PHO,Phoenix Suns,1983,32,9,21,20,,,4,10,30,10
+SAS,San Antonio Spurs,1983,31,10,22,19,,,13,9,25,9
+MIL,Milwaukee Bucks,1983,31,10,20,21,,,7,7,34,13
+NJN,New Jersey Nets,1983,30,11,19,22,,,6,7,18,14
+SEA,Seattle SuperSonics,1983,29,12,19,22,,,9,11,23,12
+POR,Portland Trail Blazers,1983,31,10,15,26,,,6,5,19,15
+DEN,Denver Nuggets,1983,29,12,16,25,,,2,3,25,22
+KCK,Kansas City Kings,1983,30,11,15,26,,,9,4,23,19
+NYK,New York Knicks,1983,26,15,18,23,,,7,7,25,14
+ATL,Atlanta Hawks,1983,26,15,17,24,,,9,2,19,25
+WSB,Washington Bullets,1983,27,14,15,26,,,11,11,14,14
+DAL,Dallas Mavericks,1983,23,18,15,26,,,7,11,16,18
+DET,Detroit Pistons,1983,23,18,14,27,,,6,8,18,18
+GSW,Golden State Warriors,1983,21,20,9,32,,,4,7,12,29
+UTA,Utah Jazz,1983,21,20,9,32,,,2,7,9,28
+CHI,Chicago Bulls,1983,18,23,10,31,,,6,10,7,29
+SDC,San Diego Clippers,1983,18,23,7,34,,,2,8,9,26
+CLE,Cleveland Cavaliers,1983,15,26,8,33,,,8,3,6,35
+IND,Indiana Pacers,1983,14,27,6,35,,,6,8,3,25
+HOU,Houston Rockets,1983,9,32,5,36,,,8,8,3,42
+BOS,Boston Celtics,1984,33,8,29,12,,,9,4,31,4
+LAL,Los Angeles Lakers,1984,28,13,26,15,,,6,5,24,12
+PHI,Philadelphia 76ers,1984,32,9,20,21,,,12,6,16,9
+MIL,Milwaukee Bucks,1984,30,11,20,21,,,5,6,30,15
+DET,Detroit Pistons,1984,30,11,19,22,,,11,9,25,9
+POR,Portland Trail Blazers,1984,33,8,15,26,,,8,7,25,10
+NYK,New York Knicks,1984,29,12,18,23,,,5,12,21,8
+NJN,New Jersey Nets,1984,29,12,16,25,,,11,6,16,11
+UTA,Utah Jazz,1984,31,10,14,27,,,9,6,19,16
+DAL,Dallas Mavericks,1984,31,10,12,29,,,13,12,16,11
+SEA,Seattle SuperSonics,1984,32,9,10,31,,,6,7,17,18
+PHO,Phoenix Suns,1984,31,10,10,31,,,4,7,25,19
+ATL,Atlanta Hawks,1984,31,10,9,32,,,10,7,14,19
+DEN,Denver Nuggets,1984,27,14,11,30,,,8,10,16,18
+KCK,Kansas City Kings,1984,26,15,12,29,,,11,10,12,19
+GSW,Golden State Warriors,1984,27,14,10,31,,,16,8,7,23
+SAS,San Antonio Spurs,1984,28,13,9,32,,,6,10,16,20
+WSB,Washington Bullets,1984,25,16,10,31,,,8,9,10,21
+SDC,San Diego Clippers,1984,25,16,5,36,,,5,7,10,24
+HOU,Houston Rockets,1984,21,20,8,33,,,5,6,15,27
+CLE,Cleveland Cavaliers,1984,23,18,5,36,,,5,8,10,30
+CHI,Chicago Bulls,1984,18,23,9,32,,,5,12,10,27
+IND,Indiana Pacers,1984,20,21,6,35,,,7,11,10,25
+BOS,Boston Celtics,1985,35,6,28,13,,,7,4,37,7
+LAL,Los Angeles Lakers,1985,36,5,26,15,,,5,9,31,9
+MIL,Milwaukee Bucks,1985,36,5,23,18,,,8,8,38,6
+PHI,Philadelphia 76ers,1985,34,7,24,17,,,11,5,26,8
+DEN,Denver Nuggets,1985,34,7,18,23,,,10,7,26,15
+HOU,Houston Rockets,1985,29,12,19,22,,,9,4,21,14
+DET,Detroit Pistons,1985,26,15,20,21,,,6,10,20,14
+DAL,Dallas Mavericks,1985,24,17,20,21,,,6,8,20,21
+NJN,New Jersey Nets,1985,27,14,15,26,,,9,7,18,22
+POR,Portland Trail Blazers,1985,30,11,12,29,,,2,7,30,16
+SAS,San Antonio Spurs,1985,30,11,11,30,,,6,10,18,18
+UTA,Utah Jazz,1985,26,15,15,26,,,9,5,19,19
+WSB,Washington Bullets,1985,28,13,12,29,,,8,5,16,14
+CHI,Chicago Bulls,1985,26,15,12,29,,,11,7,13,16
+CLE,Cleveland Cavaliers,1985,20,21,16,25,,,9,5,11,22
+PHO,Phoenix Suns,1985,26,15,10,31,,,6,4,17,23
+ATL,Atlanta Hawks,1985,19,22,15,26,,,6,12,17,22
+KCK,Kansas City Kings,1985,23,18,8,33,,,4,9,12,22
+LAC,Los Angeles Clippers,1985,20,21,11,30,,,8,5,11,26
+SEA,Seattle SuperSonics,1985,20,21,11,30,,,8,6,12,31
+NYK,New York Knicks,1985,19,22,5,36,,,8,10,7,30
+GSW,Golden State Warriors,1985,17,24,5,36,,,6,7,6,27
+IND,Indiana Pacers,1985,16,25,6,35,,,5,13,6,30
+BOS,Boston Celtics,1986,40,1,27,14,,,5,5,40,3
+LAL,Los Angeles Lakers,1986,35,6,27,14,,,7,4,34,9
+MIL,Milwaukee Bucks,1986,33,8,24,17,,,4,10,39,7
+PHI,Philadelphia 76ers,1986,31,10,23,18,,,10,6,19,9
+HOU,Houston Rockets,1986,36,5,15,26,,,5,5,20,15
+ATL,Atlanta Hawks,1986,34,7,16,25,,,8,3,24,15
+DEN,Denver Nuggets,1986,34,7,13,28,,,9,5,23,18
+DET,Detroit Pistons,1986,31,10,15,26,,,12,5,20,17
+DAL,Dallas Mavericks,1986,26,15,18,23,,,6,7,21,12
+UTA,Utah Jazz,1986,27,14,15,26,,,11,5,20,18
+POR,Portland Trail Blazers,1986,27,14,13,28,,,7,6,23,17
+NJN,New Jersey Nets,1986,26,15,13,28,,,5,6,16,25
+WSB,Washington Bullets,1986,26,15,13,28,,,10,5,12,20
+SAC,Sacramento Kings,1986,25,16,12,29,,,7,8,11,25
+SAS,San Antonio Spurs,1986,21,20,14,27,,,4,10,16,23
+LAC,Los Angeles Clippers,1986,22,19,10,31,,,7,6,6,34
+PHO,Phoenix Suns,1986,23,18,9,32,,,7,7,19,27
+SEA,Seattle SuperSonics,1986,24,17,7,34,,,4,12,18,14
+CHI,Chicago Bulls,1986,22,19,8,33,,,6,4,11,27
+GSW,Golden State Warriors,1986,24,17,6,35,,,7,8,11,24
+CLE,Cleveland Cavaliers,1986,16,25,13,28,,,3,9,16,25
+IND,Indiana Pacers,1986,19,22,7,34,,,1,7,18,28
+NYK,New York Knicks,1986,15,26,8,33,,,3,5,8,33
+LAL,Los Angeles Lakers,1987,37,4,28,13,,,6,1,40,10
+BOS,Boston Celtics,1987,39,2,20,21,,,5,9,36,6
+ATL,Atlanta Hawks,1987,35,6,22,19,,,6,7,35,9
+DAL,Dallas Mavericks,1987,35,6,20,21,,,8,4,34,9
+DET,Detroit Pistons,1987,32,9,20,21,,,12,6,27,12
+MIL,Milwaukee Bucks,1987,32,9,18,23,,,4,7,25,15
+POR,Portland Trail Blazers,1987,34,7,15,26,,,7,5,28,14
+PHI,Philadelphia 76ers,1987,28,13,17,24,,,9,11,13,16
+UTA,Utah Jazz,1987,31,10,13,28,,,10,3,16,21
+GSW,Golden State Warriors,1987,25,16,17,24,,,9,6,14,26
+HOU,Houston Rockets,1987,25,16,17,24,,,5,3,29,17
+WSB,Washington Bullets,1987,27,14,15,26,,,8,4,17,21
+IND,Indiana Pacers,1987,28,13,13,28,,,8,4,16,20
+CHI,Chicago Bulls,1987,29,12,11,30,,,5,16,17,13
+SEA,Seattle SuperSonics,1987,25,16,14,27,,,5,8,20,19
+DEN,Denver Nuggets,1987,27,14,10,31,,,7,9,22,21
+PHO,Phoenix Suns,1987,26,15,10,31,,,9,3,17,25
+CLE,Cleveland Cavaliers,1987,25,16,6,35,,,10,6,11,21
+SAC,Sacramento Kings,1987,20,21,9,32,,,7,9,9,23
+SAS,San Antonio Spurs,1987,21,20,7,34,,,3,9,11,30
+NJN,New Jersey Nets,1987,19,22,5,36,,,4,9,11,35
+NYK,New York Knicks,1987,18,23,6,35,,,5,9,8,29
+LAC,Los Angeles Clippers,1987,9,32,3,38,,,2,6,4,48
+LAL,Los Angeles Lakers,1988,36,5,26,15,,,9,6,29,9
+BOS,Boston Celtics,1988,36,5,21,20,,,9,2,32,13
+DEN,Denver Nuggets,1988,35,6,19,22,,,5,3,32,17
+DET,Detroit Pistons,1988,34,7,20,21,,,5,8,35,12
+DAL,Dallas Mavericks,1988,33,8,20,21,,,5,5,29,15
+POR,Portland Trail Blazers,1988,33,8,20,21,,,8,4,30,15
+ATL,Atlanta Hawks,1988,30,11,20,21,,,10,11,27,15
+CHI,Chicago Bulls,1988,30,11,20,21,,,10,10,25,12
+UTA,Utah Jazz,1988,33,8,14,27,,,7,9,28,13
+HOU,Houston Rockets,1988,31,10,15,26,,,3,6,19,16
+SEA,Seattle SuperSonics,1988,32,9,12,29,,,9,6,24,19
+CLE,Cleveland Cavaliers,1988,31,10,11,30,,,9,9,22,15
+MIL,Milwaukee Bucks,1988,30,11,12,29,,,9,8,21,18
+NYK,New York Knicks,1988,29,12,9,32,,,11,9,16,16
+WSB,Washington Bullets,1988,25,16,13,28,,,5,7,16,22
+IND,Indiana Pacers,1988,25,16,13,28,,,11,9,16,20
+PHI,Philadelphia 76ers,1988,27,14,9,32,,,3,11,17,24
+SAS,San Antonio Spurs,1988,23,18,8,33,,,8,5,9,30
+PHO,Phoenix Suns,1988,22,19,6,35,,,4,6,13,28
+SAC,Sacramento Kings,1988,19,22,5,36,,,10,7,9,29
+GSW,Golden State Warriors,1988,16,25,4,37,,,6,10,7,34
+NJN,New Jersey Nets,1988,16,25,3,38,,,3,10,7,34
+LAC,Los Angeles Clippers,1988,14,27,3,38,,,7,5,6,43
+DET,Detroit Pistons,1989,37,4,26,15,,,6,4,33,10
+CLE,Cleveland Cavaliers,1989,37,4,20,21,,,6,7,39,9
+LAL,Los Angeles Lakers,1989,35,6,22,19,,,9,7,35,10
+PHO,Phoenix Suns,1989,35,6,20,21,,,5,4,33,14
+ATL,Atlanta Hawks,1989,33,8,19,22,,,10,9,29,12
+NYK,New York Knicks,1989,35,6,17,24,,,8,7,27,13
+UTA,Utah Jazz,1989,34,7,17,24,,,6,7,36,15
+MIL,Milwaukee Bucks,1989,31,10,18,23,,,1,7,31,15
+CHI,Chicago Bulls,1989,30,11,17,24,,,9,4,21,16
+SEA,Seattle SuperSonics,1989,31,10,16,25,,,9,7,21,15
+PHI,Philadelphia 76ers,1989,30,11,16,25,,,9,5,23,14
+HOU,Houston Rockets,1989,31,10,14,27,,,9,10,22,17
+DEN,Denver Nuggets,1989,35,6,9,32,,,7,9,25,20
+GSW,Golden State Warriors,1989,29,12,14,27,,,5,6,20,21
+BOS,Boston Celtics,1989,32,9,10,31,,,5,7,22,19
+WSB,Washington Bullets,1989,30,11,10,31,,,8,5,12,23
+POR,Portland Trail Blazers,1989,28,13,11,30,,,4,11,22,15
+DAL,Dallas Mavericks,1989,24,17,14,27,,,6,9,17,26
+IND,Indiana Pacers,1989,20,21,8,33,,,6,9,11,25
+SAC,Sacramento Kings,1989,21,20,6,35,,,7,6,13,34
+NJN,New Jersey Nets,1989,17,24,9,32,,,7,8,7,32
+LAC,Los Angeles Clippers,1989,17,24,4,37,,,8,7,6,39
+SAS,San Antonio Spurs,1989,18,23,3,38,,,2,6,14,38
+CHH,Charlotte Hornets,1989,12,29,8,33,,,9,4,5,36
+MIA,Miami Heat,1989,12,29,3,38,,,8,4,3,39
+LAL,Los Angeles Lakers,1990,37,4,26,15,,,6,7,30,7
+DET,Detroit Pistons,1990,35,6,24,17,,,6,4,32,8
+POR,Portland Trail Blazers,1990,35,6,24,17,,,7,6,33,8
+SAS,San Antonio Spurs,1990,34,7,22,19,,,10,3,23,9
+CHI,Chicago Bulls,1990,36,5,19,22,,,8,7,26,12
+UTA,Utah Jazz,1990,36,5,19,22,,,8,3,35,15
+PHO,Phoenix Suns,1990,32,9,22,19,,,6,5,38,7
+PHI,Philadelphia 76ers,1990,34,7,19,22,,,6,6,30,12
+BOS,Boston Celtics,1990,30,11,22,19,,,7,4,30,11
+DAL,Dallas Mavericks,1990,30,11,17,24,,,7,3,20,19
+NYK,New York Knicks,1990,29,12,16,25,,,6,9,20,18
+MIL,Milwaukee Bucks,1990,27,14,17,24,,,8,9,18,18
+DEN,Denver Nuggets,1990,28,13,15,26,,,9,4,24,20
+CLE,Cleveland Cavaliers,1990,27,14,15,26,,,9,3,22,20
+IND,Indiana Pacers,1990,28,13,14,27,,,8,5,17,16
+HOU,Houston Rockets,1990,31,10,10,31,,,3,8,24,17
+ATL,Atlanta Hawks,1990,25,16,16,25,,,5,3,19,17
+SEA,Seattle SuperSonics,1990,30,11,11,30,,,5,6,24,24
+GSW,Golden State Warriors,1990,27,14,10,31,,,7,5,17,30
+WSB,Washington Bullets,1990,20,21,11,30,,,4,12,14,24
+LAC,Los Angeles Clippers,1990,20,21,10,31,,,6,9,11,21
+SAC,Sacramento Kings,1990,16,25,7,34,,,5,9,10,32
+MIN,Minnesota Timberwolves,1990,17,24,5,36,,,5,11,10,32
+CHH,Charlotte Hornets,1990,13,28,6,35,,,5,5,7,40
+MIA,Miami Heat,1990,11,30,7,34,,,4,7,6,40
+ORL,Orlando Magic,1990,12,29,6,35,,,4,7,4,38
+NJN,New Jersey Nets,1990,13,28,4,37,,,3,7,5,34
+POR,Portland Trail Blazers,1991,36,5,27,14,,,6,3,39,9
+CHI,Chicago Bulls,1991,35,6,26,15,,,5,6,43,8
+LAL,Los Angeles Lakers,1991,33,8,25,16,,,4,3,38,9
+BOS,Boston Celtics,1991,35,6,21,20,,,7,3,39,14
+PHO,Phoenix Suns,1991,32,9,23,18,,,4,4,36,9
+SAS,San Antonio Spurs,1991,33,8,22,19,,,7,6,26,8
+UTA,Utah Jazz,1991,36,5,18,23,,,8,3,28,17
+HOU,Houston Rockets,1991,31,10,21,20,,,10,8,24,13
+DET,Detroit Pistons,1991,32,9,18,23,,,6,7,20,12
+MIL,Milwaukee Bucks,1991,33,8,15,26,,,6,6,24,12
+GSW,Golden State Warriors,1991,30,11,14,27,,,9,7,25,14
+PHI,Philadelphia 76ers,1991,29,12,15,26,,,11,9,14,14
+ATL,Atlanta Hawks,1991,29,12,14,27,,,4,7,24,16
+IND,Indiana Pacers,1991,29,12,12,29,,,7,8,20,20
+SEA,Seattle SuperSonics,1991,28,13,13,28,,,7,9,21,19
+NYK,New York Knicks,1991,21,20,18,23,,,5,9,18,22
+CLE,Cleveland Cavaliers,1991,23,18,10,31,,,7,5,15,19
+LAC,Los Angeles Clippers,1991,23,18,8,33,,,6,10,15,27
+ORL,Orlando Magic,1991,24,17,7,34,,,7,5,13,27
+WSB,Washington Bullets,1991,21,20,9,32,,,9,8,10,28
+MIN,Minnesota Timberwolves,1991,21,20,8,33,,,6,8,11,30
+DAL,Dallas Mavericks,1991,20,21,8,33,,,9,6,11,30
+CHH,Charlotte Hornets,1991,17,24,9,32,,,3,8,8,32
+NJN,New Jersey Nets,1991,20,21,6,35,,,4,7,11,33
+SAC,Sacramento Kings,1991,24,17,1,40,,,2,6,10,40
+MIA,Miami Heat,1991,18,23,6,35,,,5,6,15,39
+DEN,Denver Nuggets,1991,17,24,3,38,,,4,1,6,43
+CHI,Chicago Bulls,1992,36,5,31,10,,,7,8,44,4
+CLE,Cleveland Cavaliers,1992,35,6,22,19,,,11,9,25,7
+POR,Portland Trail Blazers,1992,33,8,24,17,,,3,5,31,9
+GSW,Golden State Warriors,1992,31,10,24,17,,,7,6,25,11
+UTA,Utah Jazz,1992,37,4,18,23,,,9,6,31,9
+PHO,Phoenix Suns,1992,36,5,17,24,,,4,7,29,10
+BOS,Boston Celtics,1992,34,7,17,24,,,7,2,30,15
+NYK,New York Knicks,1992,30,11,21,20,,,6,8,25,13
+DET,Detroit Pistons,1992,25,16,23,18,,,5,5,25,13
+SAS,San Antonio Spurs,1992,31,10,16,25,,,5,8,28,13
+SEA,Seattle SuperSonics,1992,28,13,19,22,,,8,6,19,11
+LAC,Los Angeles Clippers,1992,29,12,16,25,,,11,4,21,20
+LAL,Los Angeles Lakers,1992,24,17,19,22,,,12,5,20,18
+HOU,Houston Rockets,1992,28,13,14,27,,,10,5,12,23
+IND,Indiana Pacers,1992,26,15,14,27,,,4,10,22,14
+NJN,New Jersey Nets,1992,25,16,15,26,,,7,4,13,19
+MIA,Miami Heat,1992,28,13,10,31,,,6,6,16,26
+ATL,Atlanta Hawks,1992,23,18,15,26,,,7,10,19,22
+PHI,Philadelphia 76ers,1992,23,18,12,29,,,8,8,17,17
+CHH,Charlotte Hornets,1992,22,19,9,32,,,6,9,13,27
+MIL,Milwaukee Bucks,1992,25,16,6,35,,,6,6,18,21
+SAC,Sacramento Kings,1992,21,20,8,33,,,8,9,8,30
+WSB,Washington Bullets,1992,14,27,11,30,,,3,8,12,29
+DEN,Denver Nuggets,1992,18,23,6,35,,,4,8,11,37
+DAL,Dallas Mavericks,1992,15,26,7,34,,,8,8,6,38
+ORL,Orlando Magic,1992,13,28,8,33,,,8,3,7,38
+MIN,Minnesota Timberwolves,1992,9,32,6,35,,,4,11,4,37
+PHO,Phoenix Suns,1993,35,6,27,14,,,11,6,34,5
+NYK,New York Knicks,1993,37,4,23,18,,,6,7,33,11
+CHI,Chicago Bulls,1993,31,10,26,15,,,6,7,31,5
+HOU,Houston Rockets,1993,31,10,24,17,,,6,4,30,13
+SEA,Seattle SuperSonics,1993,33,8,22,19,,,5,6,37,8
+CLE,Cleveland Cavaliers,1993,35,6,19,22,,,4,7,34,5
+POR,Portland Trail Blazers,1993,30,11,21,20,,,6,4,27,19
+SAS,San Antonio Spurs,1993,31,10,18,23,,,7,5,26,11
+BOS,Boston Celtics,1993,28,13,20,21,,,6,2,21,18
+UTA,Utah Jazz,1993,28,13,19,22,,,5,4,25,20
+CHH,Charlotte Hornets,1993,22,19,22,19,,,10,5,14,19
+ATL,Atlanta Hawks,1993,25,16,18,23,,,2,6,21,26
+NJN,New Jersey Nets,1993,26,15,17,24,,,10,8,20,20
+IND,Indiana Pacers,1993,27,14,14,27,,,6,8,24,21
+LAC,Los Angeles Clippers,1993,27,14,14,27,,,5,8,19,17
+ORL,Orlando Magic,1993,27,14,14,27,,,7,9,27,21
+DET,Detroit Pistons,1993,28,13,12,29,,,9,8,13,18
+LAL,Los Angeles Lakers,1993,20,21,19,22,,,13,6,13,27
+DEN,Denver Nuggets,1993,28,13,8,33,,,5,6,23,23
+MIA,Miami Heat,1993,26,15,10,31,,,6,8,18,22
+GSW,Golden State Warriors,1993,19,22,15,26,,,6,10,19,25
+MIL,Milwaukee Bucks,1993,18,23,10,31,,,6,7,13,30
+PHI,Philadelphia 76ers,1993,15,26,11,30,,,5,4,11,29
+SAC,Sacramento Kings,1993,16,25,9,32,,,4,8,12,26
+WSB,Washington Bullets,1993,15,26,7,34,,,3,10,7,33
+MIN,Minnesota Timberwolves,1993,11,30,8,33,,,7,7,8,32
+DAL,Dallas Mavericks,1993,7,34,4,37,,,5,1,2,58
+SEA,Seattle SuperSonics,1994,37,4,26,15,,,9,5,43,5
+HOU,Houston Rockets,1994,35,6,23,18,,,8,2,28,16
+ATL,Atlanta Hawks,1994,36,5,21,20,,,8,5,28,10
+NYK,New York Knicks,1994,32,9,25,16,,,5,6,35,11
+PHO,Phoenix Suns,1994,36,5,20,21,,,8,7,30,12
+CHI,Chicago Bulls,1994,31,10,24,17,,,13,4,25,16
+SAS,San Antonio Spurs,1994,32,9,23,18,,,3,6,33,12
+UTA,Utah Jazz,1994,33,8,20,21,,,9,6,30,9
+GSW,Golden State Warriors,1994,29,12,21,20,,,11,3,22,20
+ORL,Orlando Magic,1994,31,10,19,22,,,6,6,29,10
+CLE,Cleveland Cavaliers,1994,31,10,16,25,,,1,10,27,16
+IND,Indiana Pacers,1994,29,12,18,23,,,5,9,28,10
+POR,Portland Trail Blazers,1994,30,11,17,24,,,7,8,25,16
+NJN,New Jersey Nets,1994,29,12,16,25,,,9,9,23,18
+DEN,Denver Nuggets,1994,28,13,14,27,,,4,8,21,16
+MIA,Miami Heat,1994,22,19,20,21,,,2,6,26,14
+CHH,Charlotte Hornets,1994,28,13,13,28,,,8,3,20,21
+LAL,Los Angeles Lakers,1994,21,20,12,29,,,10,7,7,28
+BOS,Boston Celtics,1994,18,23,14,27,,,4,7,10,25
+SAC,Sacramento Kings,1994,20,21,8,33,,,6,6,10,35
+LAC,Los Angeles Clippers,1994,17,24,10,31,,,9,11,10,28
+PHI,Philadelphia 76ers,1994,15,26,10,31,,,5,7,12,32
+WSB,Washington Bullets,1994,17,24,7,34,,,4,5,9,39
+DET,Detroit Pistons,1994,10,31,10,31,,,4,6,5,33
+MIL,Milwaukee Bucks,1994,11,30,9,32,,,8,7,5,28
+MIN,Minnesota Timberwolves,1994,13,28,7,34,,,6,8,8,36
+DAL,Dallas Mavericks,1994,6,35,7,34,,,3,8,5,38
+SAS,San Antonio Spurs,1995,33,8,29,12,,,15,6,32,5
+UTA,Utah Jazz,1995,33,8,27,14,,,6,4,39,6
+PHO,Phoenix Suns,1995,32,9,27,14,,,8,2,28,13
+ORL,Orlando Magic,1995,39,2,18,23,,,9,9,37,10
+SEA,Seattle SuperSonics,1995,32,9,25,16,,,4,5,38,7
+NYK,New York Knicks,1995,29,12,26,15,,,5,5,26,14
+IND,Indiana Pacers,1995,33,8,19,22,,,6,7,27,14
+CHH,Charlotte Hornets,1995,29,12,21,20,,,5,8,25,16
+LAL,Los Angeles Lakers,1995,29,12,19,22,,,12,3,21,18
+CHI,Chicago Bulls,1995,28,13,19,22,,,5,10,30,11
+HOU,Houston Rockets,1995,25,16,22,19,,,5,8,27,18
+POR,Portland Trail Blazers,1995,26,15,18,23,,,4,6,27,17
+CLE,Cleveland Cavaliers,1995,26,15,17,24,,,10,8,17,15
+ATL,Atlanta Hawks,1995,24,17,18,23,,,7,7,23,18
+DEN,Denver Nuggets,1995,23,18,18,23,,,7,10,21,19
+SAC,Sacramento Kings,1995,27,14,12,29,,,8,7,16,22
+DAL,Dallas Mavericks,1995,19,22,17,24,,,10,9,13,26
+BOS,Boston Celtics,1995,20,21,15,26,,,9,7,16,21
+MIL,Milwaukee Bucks,1995,22,19,12,29,,,10,6,6,23
+MIA,Miami Heat,1995,22,19,10,31,,,3,8,20,24
+NJN,New Jersey Nets,1995,20,21,10,31,,,8,9,10,20
+DET,Detroit Pistons,1995,22,19,6,35,,,5,4,8,39
+GSW,Golden State Warriors,1995,15,26,11,30,,,5,7,11,32
+PHI,Philadelphia 76ers,1995,14,27,10,31,,,3,11,9,26
+MIN,Minnesota Timberwolves,1995,13,28,8,33,,,7,6,5,40
+WSB,Washington Bullets,1995,13,28,8,33,,,7,9,4,27
+LAC,Los Angeles Clippers,1995,13,28,4,37,,,4,6,8,43
+CHI,Chicago Bulls,1996,39,2,33,8,,,5,3,46,2
+SEA,Seattle SuperSonics,1996,38,3,26,15,,,8,8,30,8
+ORL,Orlando Magic,1996,37,4,23,18,,,12,5,35,14
+SAS,San Antonio Spurs,1996,33,8,26,15,,,9,4,31,9
+UTA,Utah Jazz,1996,34,7,21,20,,,5,6,37,8
+LAL,Los Angeles Lakers,1996,30,11,23,18,,,9,9,31,13
+IND,Indiana Pacers,1996,32,9,20,21,,,10,8,22,7
+HOU,Houston Rockets,1996,27,14,21,20,,,6,9,16,13
+CLE,Cleveland Cavaliers,1996,26,15,21,20,,,10,6,27,18
+NYK,New York Knicks,1996,26,15,21,20,,,4,0,20,15
+ATL,Atlanta Hawks,1996,26,15,20,21,,,9,8,19,12
+DET,Detroit Pistons,1996,30,11,16,25,,,8,10,25,12
+POR,Portland Trail Blazers,1996,26,15,18,23,,,7,11,21,12
+MIA,Miami Heat,1996,26,15,16,25,,,6,9,21,17
+PHO,Phoenix Suns,1996,25,16,16,25,,,4,5,20,18
+CHH,Charlotte Hornets,1996,25,16,16,25,,,6,9,18,17
+SAC,Sacramento Kings,1996,26,15,13,28,,,7,5,10,27
+WSB,Washington Bullets,1996,25,16,14,27,,,4,8,21,19
+GSW,Golden State Warriors,1996,23,18,13,28,,,8,6,13,22
+DEN,Denver Nuggets,1996,24,17,11,30,,,5,6,12,21
+BOS,Boston Celtics,1996,18,23,15,26,,,8,7,13,26
+NJN,New Jersey Nets,1996,20,21,10,31,,,5,6,10,28
+LAC,Los Angeles Clippers,1996,19,22,10,31,,,4,3,11,23
+DAL,Dallas Mavericks,1996,16,25,10,31,,,7,9,10,30
+MIN,Minnesota Timberwolves,1996,17,24,9,32,,,5,9,11,26
+MIL,Milwaukee Bucks,1996,14,27,11,30,,,3,5,9,25
+TOR,Toronto Raptors,1996,15,26,6,35,,,6,9,8,31
+PHI,Philadelphia 76ers,1996,11,30,7,34,,,7,6,4,44
+VAN,Vancouver Grizzlies,1996,10,31,5,36,,,5,3,2,36
+CHI,Chicago Bulls,1997,39,2,30,11,,,9,4,45,4
+UTA,Utah Jazz,1997,38,3,26,15,,,3,5,36,5
+MIA,Miami Heat,1997,29,12,32,9,,,15,4,31,6
+HOU,Houston Rockets,1997,30,11,27,14,,,6,3,27,13
+NYK,New York Knicks,1997,31,10,26,15,,,9,4,23,10
+SEA,Seattle SuperSonics,1997,31,10,26,15,,,4,9,39,6
+ATL,Atlanta Hawks,1997,36,5,20,21,,,5,3,35,14
+LAL,Los Angeles Lakers,1997,31,10,25,16,,,7,4,29,15
+CHH,Charlotte Hornets,1997,30,11,24,17,,,8,5,19,12
+DET,Detroit Pistons,1997,30,11,24,17,,,5,4,27,10
+POR,Portland Trail Blazers,1997,29,12,20,21,,,4,9,27,11
+ORL,Orlando Magic,1997,26,15,19,22,,,6,1,18,21
+WSB,Washington Bullets,1997,25,16,19,22,,,4,10,22,14
+CLE,Cleveland Cavaliers,1997,25,16,17,24,,,6,4,20,15
+MIN,Minnesota Timberwolves,1997,25,16,15,26,,,11,5,18,23
+PHO,Phoenix Suns,1997,25,16,15,26,,,5,11,17,22
+IND,Indiana Pacers,1997,21,20,18,23,,,8,9,24,15
+LAC,Los Angeles Clippers,1997,21,20,15,26,,,7,4,15,25
+SAC,Sacramento Kings,1997,22,19,12,29,,,6,6,14,27
+MIL,Milwaukee Bucks,1997,20,21,13,28,,,6,7,15,18
+GSW,Golden State Warriors,1997,18,23,12,29,,,1,4,16,32
+TOR,Toronto Raptors,1997,18,23,12,29,,,7,11,11,23
+NJN,New Jersey Nets,1997,16,25,10,31,,,4,6,11,30
+DAL,Dallas Mavericks,1997,14,27,10,31,,,7,9,6,33
+PHI,Philadelphia 76ers,1997,11,30,11,30,,,4,6,9,36
+DEN,Denver Nuggets,1997,12,29,9,32,,,8,12,8,27
+SAS,San Antonio Spurs,1997,12,29,8,33,,,4,2,9,39
+BOS,Boston Celtics,1997,11,30,4,37,,,3,12,6,35
+VAN,Vancouver Grizzlies,1997,8,33,6,35,,,4,3,5,41
+CHI,Chicago Bulls,1998,37,4,25,16,,,6,3,34,5
+UTA,Utah Jazz,1998,36,5,26,15,,,9,4,30,7
+LAL,Los Angeles Lakers,1998,33,8,28,13,,,5,3,38,10
+SEA,Seattle SuperSonics,1998,35,6,26,15,,,8,3,33,10
+IND,Indiana Pacers,1998,32,9,26,15,,,9,7,24,4
+PHO,Phoenix Suns,1998,30,11,26,15,,,6,5,30,13
+SAS,San Antonio Spurs,1998,31,10,25,16,,,7,3,31,15
+MIA,Miami Heat,1998,30,11,25,16,,,9,4,28,13
+CHH,Charlotte Hornets,1998,32,9,19,22,,,9,3,25,20
+ATL,Atlanta Hawks,1998,29,12,21,20,,,8,9,28,13
+CLE,Cleveland Cavaliers,1998,27,14,20,21,,,9,10,24,11
+POR,Portland Trail Blazers,1998,26,15,20,21,,,7,5,20,12
+MIN,Minnesota Timberwolves,1998,26,15,19,22,,,9,5,19,19
+NJN,New Jersey Nets,1998,26,15,17,24,,,4,9,22,15
+NYK,New York Knicks,1998,28,13,15,26,,,7,9,24,12
+WAS,Washington Wizards,1998,24,17,18,23,,,10,8,21,20
+HOU,Houston Rockets,1998,24,17,17,24,,,4,4,23,25
+ORL,Orlando Magic,1998,24,17,17,24,,,7,7,18,23
+DET,Detroit Pistons,1998,25,16,12,29,,,4,10,17,11
+BOS,Boston Celtics,1998,24,17,12,29,,,5,3,13,23
+MIL,Milwaukee Bucks,1998,21,20,15,26,,,3,7,10,22
+PHI,Philadelphia 76ers,1998,19,22,12,29,,,6,4,16,22
+SAC,Sacramento Kings,1998,21,20,6,35,,,8,10,13,35
+DAL,Dallas Mavericks,1998,13,28,7,34,,,4,9,8,27
+GSW,Golden State Warriors,1998,12,29,7,34,,,1,2,9,39
+VAN,Vancouver Grizzlies,1998,14,27,5,36,,,5,6,6,31
+LAC,Los Angeles Clippers,1998,11,30,6,35,,,3,7,5,35
+TOR,Toronto Raptors,1998,9,32,7,34,,,5,9,1,33
+DEN,Denver Nuggets,1998,9,32,2,39,,,1,10,6,51
+SAS,San Antonio Spurs,1999,21,4,16,9,,,4,2,22,5
+UTA,Utah Jazz,1999,22,3,15,10,,,3,4,22,5
+POR,Portland Trail Blazers,1999,22,3,13,12,,,3,5,19,5
+IND,Indiana Pacers,1999,18,7,15,10,,,7,8,12,4
+MIA,Miami Heat,1999,18,7,15,10,,,4,5,18,7
+ORL,Orlando Magic,1999,21,4,12,13,,,6,2,12,10
+ATL,Atlanta Hawks,1999,16,9,15,10,,,5,3,15,6
+HOU,Houston Rockets,1999,19,6,12,13,,,3,2,20,12
+LAL,Los Angeles Lakers,1999,18,7,13,12,,,3,3,16,8
+DET,Detroit Pistons,1999,17,8,12,13,,,4,3,13,7
+MIL,Milwaukee Bucks,1999,17,8,11,14,,,6,6,9,6
+PHI,Philadelphia 76ers,1999,17,8,11,14,,,1,3,13,8
+NYK,New York Knicks,1999,19,6,8,17,,,3,6,12,7
+PHO,Phoenix Suns,1999,15,10,12,13,,,2,4,11,8
+SAC,Sacramento Kings,1999,16,9,11,14,,,7,2,9,14
+CHH,Charlotte Hornets,1999,16,9,10,15,,,8,2,7,9
+MIN,Minnesota Timberwolves,1999,18,7,7,18,,,1,2,13,10
+SEA,Seattle SuperSonics,1999,17,8,8,17,,,7,4,11,10
+TOR,Toronto Raptors,1999,14,11,9,16,,,5,4,12,16
+CLE,Cleveland Cavaliers,1999,15,10,7,18,,,2,0,11,15
+GSW,Golden State Warriors,1999,13,12,8,17,,,3,4,6,13
+BOS,Boston Celtics,1999,10,15,9,16,,,3,6,10,18
+DAL,Dallas Mavericks,1999,15,10,4,21,,,1,4,9,16
+WAS,Washington Wizards,1999,13,12,5,20,,,3,6,10,14
+NJN,New Jersey Nets,1999,12,13,4,21,,,2,4,9,16
+DEN,Denver Nuggets,1999,12,13,2,23,,,5,0,5,19
+CHI,Chicago Bulls,1999,8,17,5,20,,,4,2,5,22
+LAC,Los Angeles Clippers,1999,6,19,3,22,,,1,5,3,24
+VAN,Vancouver Grizzlies,1999,7,18,1,24,,,1,6,2,22
+LAL,Los Angeles Lakers,2000,36,5,31,10,,,8,1,34,7
+POR,Portland Trail Blazers,2000,30,11,29,12,,,4,7,32,7
+IND,Indiana Pacers,2000,36,5,20,21,,,8,5,28,13
+UTA,Utah Jazz,2000,31,10,24,17,,,7,8,31,9
+PHO,Phoenix Suns,2000,32,9,21,20,,,7,9,27,10
+SAS,San Antonio Spurs,2000,31,10,22,19,,,8,7,31,11
+MIA,Miami Heat,2000,33,8,19,22,,,9,2,26,15
+MIN,Minnesota Timberwolves,2000,26,15,24,17,,,11,4,23,15
+NYK,New York Knicks,2000,33,8,17,24,,,9,5,20,13
+CHH,Charlotte Hornets,2000,30,11,19,22,,,7,5,24,16
+PHI,Philadelphia 76ers,2000,29,12,20,21,,,17,8,18,14
+SEA,Seattle SuperSonics,2000,24,17,21,20,,,8,7,22,17
+TOR,Toronto Raptors,2000,26,15,19,22,,,13,4,20,20
+SAC,Sacramento Kings,2000,30,11,14,27,,,3,6,28,16
+DET,Detroit Pistons,2000,27,14,15,26,,,6,6,21,16
+MIL,Milwaukee Bucks,2000,23,18,19,22,,,11,7,18,17
+ORL,Orlando Magic,2000,26,15,15,26,,,6,7,20,16
+DAL,Dallas Mavericks,2000,22,19,18,23,,,6,7,18,19
+BOS,Boston Celtics,2000,26,15,9,32,,,4,13,18,19
+DEN,Denver Nuggets,2000,25,16,10,31,,,10,8,12,27
+HOU,Houston Rockets,2000,22,19,12,29,,,6,7,16,22
+CLE,Cleveland Cavaliers,2000,22,19,10,31,,,7,11,12,21
+NJN,New Jersey Nets,2000,22,19,9,32,,,6,14,15,15
+WAS,Washington Wizards,2000,17,24,12,29,,,2,10,15,22
+ATL,Atlanta Hawks,2000,21,20,7,34,,,4,7,11,32
+VAN,Vancouver Grizzlies,2000,12,29,10,31,,,5,10,10,33
+GSW,Golden State Warriors,2000,12,29,7,34,,,2,4,10,39
+CHI,Chicago Bulls,2000,12,29,5,36,,,6,9,3,38
+LAC,Los Angeles Clippers,2000,10,31,5,36,,,3,5,3,47
+SAS,San Antonio Spurs,2001,33,8,25,16,,,3,7,40,6
+LAL,Los Angeles Lakers,2001,31,10,25,16,,,10,5,24,13
+PHI,Philadelphia 76ers,2001,29,12,27,14,,,6,4,26,12
+SAC,Sacramento Kings,2001,33,8,22,19,,,6,9,28,8
+DAL,Dallas Mavericks,2001,28,13,25,16,,,4,5,28,14
+UTA,Utah Jazz,2001,28,13,25,16,,,5,4,31,9
+MIL,Milwaukee Bucks,2001,31,10,21,20,,,3,7,20,12
+PHO,Phoenix Suns,2001,31,10,20,21,,,7,4,18,13
+MIA,Miami Heat,2001,29,12,21,20,,,9,9,18,12
+POR,Portland Trail Blazers,2001,28,13,22,19,,,4,4,29,13
+NYK,New York Knicks,2001,30,11,18,23,,,12,5,24,14
+MIN,Minnesota Timberwolves,2001,30,11,17,24,,,7,4,22,14
+TOR,Toronto Raptors,2001,27,14,20,21,,,6,7,26,15
+CHH,Charlotte Hornets,2001,28,13,18,23,,,7,8,23,11
+HOU,Houston Rockets,2001,24,17,21,20,,,4,10,25,14
+SEA,Seattle SuperSonics,2001,26,15,18,23,,,10,4,20,18
+ORL,Orlando Magic,2001,26,15,17,24,,,7,7,21,17
+IND,Indiana Pacers,2001,26,15,15,26,,,6,6,18,21
+DEN,Denver Nuggets,2001,29,12,11,30,,,12,6,14,25
+BOS,Boston Celtics,2001,20,21,16,25,,,10,7,11,20
+DET,Detroit Pistons,2001,18,23,14,27,,,2,3,16,17
+LAC,Los Angeles Clippers,2001,22,19,9,32,,,5,8,13,25
+CLE,Cleveland Cavaliers,2001,20,21,10,31,,,6,5,10,27
+NJN,New Jersey Nets,2001,18,23,8,33,,,7,9,11,32
+ATL,Atlanta Hawks,2001,18,23,7,34,,,5,4,10,25
+VAN,Vancouver Grizzlies,2001,15,26,8,33,,,3,11,13,37
+WAS,Washington Wizards,2001,12,29,7,34,,,3,7,4,31
+GSW,Golden State Warriors,2001,11,30,6,35,,,6,5,6,40
+CHI,Chicago Bulls,2001,10,31,5,36,,,3,4,3,37
+SAC,Sacramento Kings,2002,36,5,25,16,,,6,1,39,15
+LAL,Los Angeles Lakers,2002,34,7,24,17,,,7,5,33,10
+SAS,San Antonio Spurs,2002,32,9,26,15,,,7,7,34,7
+DAL,Dallas Mavericks,2002,30,11,27,14,,,6,6,31,11
+NJN,New Jersey Nets,2002,33,8,19,22,,,9,6,26,14
+DET,Detroit Pistons,2002,26,15,24,17,,,9,8,19,14
+MIN,Minnesota Timberwolves,2002,29,12,21,20,,,9,5,27,12
+BOS,Boston Celtics,2002,27,14,22,19,,,8,9,19,13
+POR,Portland Trail Blazers,2002,30,11,19,22,,,5,9,20,17
+SEA,Seattle SuperSonics,2002,26,15,19,22,,,6,8,30,15
+CHH,Charlotte Hornets,2002,21,20,23,18,,,6,6,17,16
+ORL,Orlando Magic,2002,27,14,17,24,,,4,3,23,19
+UTA,Utah Jazz,2002,25,16,19,22,,,6,7,21,14
+PHI,Philadelphia 76ers,2002,22,19,21,20,,,3,5,19,13
+IND,Indiana Pacers,2002,25,16,17,24,,,5,5,21,19
+TOR,Toronto Raptors,2002,24,17,18,23,,,13,7,16,16
+MIL,Milwaukee Bucks,2002,25,16,16,25,,,4,8,17,19
+LAC,Los Angeles Clippers,2002,25,16,14,27,,,4,8,19,22
+WAS,Washington Wizards,2002,22,19,15,26,,,7,6,14,17
+MIA,Miami Heat,2002,18,23,18,23,,,10,5,14,14
+PHO,Phoenix Suns,2002,23,18,13,28,,,9,7,17,19
+ATL,Atlanta Hawks,2002,23,18,10,31,,,9,8,8,26
+NYK,New York Knicks,2002,19,22,11,30,,,7,10,7,24
+CLE,Cleveland Cavaliers,2002,20,21,9,32,,,2,8,15,25
+HOU,Houston Rockets,2002,18,23,10,31,,,10,15,5,20
+DEN,Denver Nuggets,2002,20,21,7,34,,,11,8,9,30
+MEM,Memphis Grizzlies,2002,15,26,8,33,,,7,6,6,35
+CHI,Chicago Bulls,2002,14,27,7,34,,,8,4,3,37
+GSW,Golden State Warriors,2002,14,27,7,34,,,1,8,11,27
+DAL,Dallas Mavericks,2003,33,8,27,14,,,6,7,36,6
+SAS,San Antonio Spurs,2003,33,8,27,14,,,12,5,26,6
+SAC,Sacramento Kings,2003,35,6,24,17,,,11,2,31,11
+MIN,Minnesota Timberwolves,2003,33,8,18,23,,,5,3,21,15
+DET,Detroit Pistons,2003,30,11,20,21,,,10,9,27,11
+LAL,Los Angeles Lakers,2003,31,10,19,22,,,8,5,26,14
+POR,Portland Trail Blazers,2003,27,14,23,18,,,8,7,25,12
+NJN,New Jersey Nets,2003,33,8,16,25,,,2,7,31,8
+IND,Indiana Pacers,2003,32,9,16,25,,,9,7,23,14
+PHI,Philadelphia 76ers,2003,25,16,23,18,,,8,6,20,12
+NOH,New Orleans Hornets,2003,29,12,18,23,,,7,7,19,11
+UTA,Utah Jazz,2003,29,12,18,23,,,6,8,28,17
+BOS,Boston Celtics,2003,25,16,19,22,,,6,7,18,19
+PHO,Phoenix Suns,2003,30,11,14,27,,,7,8,16,16
+HOU,Houston Rockets,2003,28,13,15,26,,,3,10,24,17
+MIL,Milwaukee Bucks,2003,25,16,17,24,,,6,9,13,15
+ORL,Orlando Magic,2003,26,15,16,25,,,8,9,19,16
+SEA,Seattle SuperSonics,2003,25,16,15,26,,,7,10,15,17
+GSW,Golden State Warriors,2003,24,17,14,27,,,3,6,13,19
+NYK,New York Knicks,2003,24,17,13,28,,,9,11,8,14
+WAS,Washington Wizards,2003,23,18,14,27,,,10,6,11,18
+ATL,Atlanta Hawks,2003,26,15,9,32,,,10,8,11,28
+CHI,Chicago Bulls,2003,27,14,3,38,,,6,5,12,34
+MEM,Memphis Grizzlies,2003,20,21,8,33,,,5,7,14,23
+LAC,Los Angeles Clippers,2003,16,25,11,30,,,9,7,9,24
+MIA,Miami Heat,2003,16,25,9,32,,,4,6,12,27
+TOR,Toronto Raptors,2003,15,26,9,32,,,7,7,6,30
+CLE,Cleveland Cavaliers,2003,14,27,3,38,,,6,5,6,38
+DEN,Denver Nuggets,2003,13,28,4,37,,,4,8,9,37
+IND,Indiana Pacers,2004,34,7,27,14,,,7,6,30,8
+MIN,Minnesota Timberwolves,2004,31,10,27,14,,,6,6,34,6
+SAS,San Antonio Spurs,2004,33,8,24,17,,,6,8,38,5
+LAL,Los Angeles Lakers,2004,34,7,22,19,,,14,5,24,16
+SAC,Sacramento Kings,2004,34,7,21,20,,,5,4,29,9
+DET,Detroit Pistons,2004,31,10,23,18,,,6,12,30,4
+DAL,Dallas Mavericks,2004,36,5,16,25,,,8,7,30,14
+MEM,Memphis Grizzlies,2004,31,10,19,22,,,10,6,18,7
+NJN,New Jersey Nets,2004,28,13,19,22,,,3,7,33,17
+HOU,Houston Rockets,2004,27,14,18,23,,,8,6,21,13
+DEN,Denver Nuggets,2004,29,12,14,27,,,3,9,23,19
+MIA,Miami Heat,2004,29,12,13,28,,,6,7,20,21
+UTA,Utah Jazz,2004,28,13,14,27,,,6,1,15,22
+MIL,Milwaukee Bucks,2004,27,14,14,27,,,5,6,16,9
+NOH,New Orleans Hornets,2004,25,16,16,25,,,9,5,18,17
+POR,Portland Trail Blazers,2004,25,16,16,25,,,8,5,11,21
+NYK,New York Knicks,2004,23,18,16,25,,,6,6,16,22
+GSW,Golden State Warriors,2004,27,14,10,31,,,7,7,16,21
+SEA,Seattle SuperSonics,2004,21,20,16,25,,,6,7,17,23
+BOS,Boston Celtics,2004,19,22,17,24,,,10,9,11,18
+CLE,Cleveland Cavaliers,2004,23,18,12,29,,,8,4,11,25
+PHI,Philadelphia 76ers,2004,21,20,12,29,,,6,6,13,23
+TOR,Toronto Raptors,2004,18,23,15,26,,,10,10,9,22
+PHO,Phoenix Suns,2004,18,23,11,30,,,5,5,9,26
+ATL,Atlanta Hawks,2004,18,23,10,31,,,2,9,12,26
+LAC,Los Angeles Clippers,2004,18,23,10,31,,,9,5,12,25
+WAS,Washington Wizards,2004,17,24,8,33,,,3,4,13,34
+CHI,Chicago Bulls,2004,14,27,9,32,,,2,5,8,32
+ORL,Orlando Magic,2004,11,30,10,31,,,3,10,5,37
+PHO,Phoenix Suns,2005,31,10,31,10,,,7,2,36,8
+MIA,Miami Heat,2005,35,6,24,17,,,7,8,33,6
+SAS,San Antonio Spurs,2005,38,3,21,20,,,9,7,40,5
+DAL,Dallas Mavericks,2005,29,12,29,12,,,8,4,28,10
+DET,Detroit Pistons,2005,32,9,22,19,,,8,8,26,14
+SEA,Seattle SuperSonics,2005,26,15,26,15,,,7,5,25,15
+HOU,Houston Rockets,2005,26,15,25,16,,,12,6,28,11
+SAC,Sacramento Kings,2005,30,11,20,21,,,10,7,20,15
+DEN,Denver Nuggets,2005,31,10,18,23,,,8,4,25,18
+CHI,Chicago Bulls,2005,27,14,20,21,,,7,5,15,15
+BOS,Boston Celtics,2005,27,14,18,23,,,11,7,16,14
+MEM,Memphis Grizzlies,2005,26,15,19,22,,,7,11,23,12
+WAS,Washington Wizards,2005,29,12,16,25,,,14,6,16,16
+IND,Indiana Pacers,2005,25,16,19,22,,,9,9,18,12
+MIN,Minnesota Timberwolves,2005,24,17,20,21,,,5,6,16,15
+PHI,Philadelphia 76ers,2005,25,16,18,23,,,10,4,13,15
+NJN,New Jersey Nets,2005,24,17,18,23,,,7,4,19,26
+CLE,Cleveland Cavaliers,2005,29,12,13,28,,,4,5,27,20
+LAC,Los Angeles Clippers,2005,27,14,10,31,,,4,13,15,19
+ORL,Orlando Magic,2005,24,17,12,29,,,10,5,10,22
+GSW,Golden State Warriors,2005,20,21,14,27,,,4,10,14,22
+LAL,Los Angeles Lakers,2005,22,19,12,29,,,6,10,11,23
+NYK,New York Knicks,2005,22,19,11,30,,,9,11,13,17
+TOR,Toronto Raptors,2005,22,19,11,30,,,6,9,16,21
+MIL,Milwaukee Bucks,2005,23,18,7,34,,,8,8,10,21
+POR,Portland Trail Blazers,2005,18,23,9,32,,,8,5,9,21
+UTA,Utah Jazz,2005,18,23,8,33,,,6,10,13,31
+CHA,Charlotte Bobcats,2005,14,27,4,37,,,5,16,6,29
+NOH,New Orleans Hornets,2005,11,30,7,34,,,6,11,3,31
+ATL,Atlanta Hawks,2005,9,32,4,37,,,2,8,3,43
+DET,Detroit Pistons,2006,37,4,27,14,,,7,4,32,8
+SAS,San Antonio Spurs,2006,34,7,29,12,,,10,2,31,11
+DAL,Dallas Mavericks,2006,34,7,26,15,,,11,6,28,10
+PHO,Phoenix Suns,2006,31,10,23,18,,,0,7,34,9
+MIA,Miami Heat,2006,31,10,21,20,,,8,4,27,11
+CLE,Cleveland Cavaliers,2006,31,10,19,22,,,9,4,20,11
+MEM,Memphis Grizzlies,2006,30,11,19,22,,,6,10,30,13
+NJN,New Jersey Nets,2006,29,12,20,21,,,8,6,21,17
+LAC,Los Angeles Clippers,2006,27,14,20,21,,,6,5,24,19
+LAL,Los Angeles Lakers,2006,27,14,18,23,,,7,9,25,15
+DEN,Denver Nuggets,2006,26,15,18,23,,,12,8,22,20
+SAC,Sacramento Kings,2006,27,14,17,24,,,6,5,21,21
+WAS,Washington Wizards,2006,27,14,15,26,,,5,8,24,16
+CHI,Chicago Bulls,2006,21,20,20,21,,,6,10,14,16
+IND,Indiana Pacers,2006,27,14,14,27,,,4,10,26,14
+UTA,Utah Jazz,2006,22,19,19,22,,,7,2,17,23
+MIL,Milwaukee Bucks,2006,25,16,15,26,,,11,6,15,18
+NOK,New Orleans/Oklahoma City Hornets,2006,24,17,14,27,,,7,5,14,28
+PHI,Philadelphia 76ers,2006,23,18,15,26,,,9,7,12,21
+ORL,Orlando Magic,2006,26,15,10,31,,,4,6,15,19
+SEA,Seattle SuperSonics,2006,22,19,13,28,,,4,4,15,24
+GSW,Golden State Warriors,2006,21,20,13,28,,,7,14,12,22
+HOU,Houston Rockets,2006,15,26,19,22,,,7,9,13,19
+BOS,Boston Celtics,2006,21,20,12,29,,,9,10,15,17
+MIN,Minnesota Timberwolves,2006,24,17,9,32,,,4,10,16,19
+TOR,Toronto Raptors,2006,15,26,12,29,,,5,11,12,20
+ATL,Atlanta Hawks,2006,18,23,8,33,,,12,12,7,22
+CHA,Charlotte Bobcats,2006,17,24,9,32,,,5,7,10,26
+NYK,New York Knicks,2006,15,26,8,33,,,8,6,7,32
+POR,Portland Trail Blazers,2006,15,26,6,35,,,7,4,4,42
+DAL,Dallas Mavericks,2007,36,5,31,10,,,12,3,36,9
+PHO,Phoenix Suns,2007,33,8,28,13,,,5,4,32,4
+SAS,San Antonio Spurs,2007,31,10,27,14,,,3,5,35,7
+DET,Detroit Pistons,2007,26,15,27,14,,,6,10,24,7
+HOU,Houston Rockets,2007,28,13,24,17,,,4,4,25,13
+UTA,Utah Jazz,2007,31,10,20,21,,,10,10,26,11
+CLE,Cleveland Cavaliers,2007,30,11,20,21,,,9,7,25,11
+CHI,Chicago Bulls,2007,31,10,18,23,,,9,9,28,15
+TOR,Toronto Raptors,2007,30,11,17,24,,,11,6,23,18
+DEN,Denver Nuggets,2007,23,18,22,19,,,3,7,23,17
+MIA,Miami Heat,2007,27,14,17,24,,,13,6,16,22
+GSW,Golden State Warriors,2007,30,11,12,29,,,8,8,26,21
+LAL,Los Angeles Lakers,2007,25,16,17,24,,,5,4,18,16
+NJN,New Jersey Nets,2007,24,17,17,24,,,6,8,17,17
+WAS,Washington Wizards,2007,26,15,15,26,,,12,7,19,16
+ORL,Orlando Magic,2007,25,16,15,26,,,10,7,20,19
+LAC,Los Angeles Clippers,2007,25,16,15,26,,,5,6,20,25
+NOK,New Orleans/Oklahoma City Hornets,2007,24,17,15,26,,,9,7,14,21
+IND,Indiana Pacers,2007,22,19,13,28,,,5,7,18,24
+PHI,Philadelphia 76ers,2007,21,20,14,27,,,9,8,12,25
+CHA,Charlotte Bobcats,2007,20,21,13,28,,,2,4,15,23
+NYK,New York Knicks,2007,19,22,14,27,,,10,10,10,23
+SAC,Sacramento Kings,2007,20,21,13,28,,,5,6,14,19
+MIN,Minnesota Timberwolves,2007,20,21,12,29,,,7,10,9,25
+POR,Portland Trail Blazers,2007,18,23,14,27,,,11,7,9,29
+SEA,Seattle SuperSonics,2007,20,21,11,30,,,10,10,14,23
+ATL,Atlanta Hawks,2007,18,23,12,29,,,7,7,11,30
+MIL,Milwaukee Bucks,2007,18,23,10,31,,,4,8,10,28
+BOS,Boston Celtics,2007,12,29,12,29,,,4,12,7,20
+MEM,Memphis Grizzlies,2007,14,27,8,33,,,5,12,8,26
+BOS,Boston Celtics,2008,35,6,31,10,,,7,6,45,3
+DET,Detroit Pistons,2008,34,7,25,16,,,5,3,37,10
+LAL,Los Angeles Lakers,2008,30,11,27,14,,,5,8,37,9
+NOH,New Orleans Hornets,2008,30,11,26,15,,,8,4,37,15
+SAS,San Antonio Spurs,2008,34,7,22,19,,,8,6,31,11
+HOU,Houston Rockets,2008,31,10,24,17,,,9,3,31,11
+PHO,Phoenix Suns,2008,30,11,25,16,,,3,5,31,9
+UTA,Utah Jazz,2008,37,4,17,24,,,4,3,37,14
+ORL,Orlando Magic,2008,25,16,27,14,,,6,6,34,12
+DAL,Dallas Mavericks,2008,34,7,17,24,,,5,6,29,11
+DEN,Denver Nuggets,2008,33,8,17,24,,,6,6,29,18
+GSW,Golden State Warriors,2008,27,14,21,20,,,9,2,22,14
+CLE,Cleveland Cavaliers,2008,27,14,18,23,,,10,8,10,17
+WAS,Washington Wizards,2008,25,16,18,23,,,5,9,26,19
+TOR,Toronto Raptors,2008,25,16,16,25,,,3,3,26,16
+POR,Portland Trail Blazers,2008,28,13,13,28,,,10,2,15,22
+PHI,Philadelphia 76ers,2008,22,19,18,23,,,4,8,18,20
+SAC,Sacramento Kings,2008,26,15,12,29,,,10,8,17,23
+ATL,Atlanta Hawks,2008,25,16,12,29,,,6,5,11,24
+IND,Indiana Pacers,2008,21,20,15,26,,,4,3,14,22
+NJN,New Jersey Nets,2008,21,20,13,28,,,7,3,8,31
+CHI,Chicago Bulls,2008,20,21,13,28,,,4,3,19,29
+CHA,Charlotte Bobcats,2008,21,20,11,30,,,8,6,12,24
+MIL,Milwaukee Bucks,2008,19,22,7,34,,,6,9,5,29
+LAC,Los Angeles Clippers,2008,13,28,10,31,,,2,5,10,35
+NYK,New York Knicks,2008,15,26,8,33,,,4,5,6,33
+MEM,Memphis Grizzlies,2008,14,27,8,33,,,2,11,10,37
+MIN,Minnesota Timberwolves,2008,15,26,7,34,,,4,8,8,35
+SEA,Seattle SuperSonics,2008,13,28,7,34,,,5,7,5,37
+MIA,Miami Heat,2008,9,32,6,35,,,3,11,4,34
+CLE,Cleveland Cavaliers,2009,39,2,27,14,,,3,3,41,7
+LAL,Los Angeles Lakers,2009,36,5,29,12,,,7,5,35,7
+BOS,Boston Celtics,2009,35,6,27,14,,,7,3,35,6
+ORL,Orlando Magic,2009,32,9,27,14,,,9,2,32,10
+DEN,Denver Nuggets,2009,33,8,21,20,,,8,5,32,14
+POR,Portland Trail Blazers,2009,34,7,20,21,,,9,1,31,11
+SAS,San Antonio Spurs,2009,28,13,26,15,,,12,7,26,12
+HOU,Houston Rockets,2009,33,8,20,21,,,5,8,29,11
+DAL,Dallas Mavericks,2009,32,9,18,23,,,10,4,28,14
+NOH,New Orleans Hornets,2009,28,13,21,20,,,8,1,23,17
+UTA,Utah Jazz,2009,33,8,15,26,,,1,3,26,15
+ATL,Atlanta Hawks,2009,31,10,16,25,,,5,7,18,13
+PHO,Phoenix Suns,2009,28,13,18,23,,,5,3,23,21
+MIA,Miami Heat,2009,28,13,15,26,,,7,6,16,17
+CHI,Chicago Bulls,2009,28,13,13,28,,,4,8,18,19
+PHI,Philadelphia 76ers,2009,24,17,17,24,,,6,9,15,19
+DET,Detroit Pistons,2009,21,20,18,23,,,5,6,12,16
+IND,Indiana Pacers,2009,25,16,11,30,,,9,12,9,15
+CHA,Charlotte Bobcats,2009,23,18,12,29,,,5,5,14,18
+MIL,Milwaukee Bucks,2009,22,19,12,29,,,5,3,16,21
+NJN,New Jersey Nets,2009,19,22,15,26,,,6,8,18,24
+TOR,Toronto Raptors,2009,18,23,15,26,,,3,4,15,24
+NYK,New York Knicks,2009,20,21,12,29,,,1,4,12,20
+GSW,Golden State Warriors,2009,21,20,8,33,,,3,6,13,25
+MEM,Memphis Grizzlies,2009,16,25,8,33,,,2,4,11,38
+MIN,Minnesota Timberwolves,2009,11,30,13,28,,,6,8,7,27
+OKC,Oklahoma City Thunder,2009,15,26,8,33,,,7,9,6,34
+LAC,Los Angeles Clippers,2009,11,30,8,33,,,4,8,10,41
+WAS,Washington Wizards,2009,13,28,6,35,,,7,5,7,35
+SAC,Sacramento Kings,2009,11,30,6,35,,,2,14,6,33
+CLE,Cleveland Cavaliers,2010,35,6,26,15,,,7,8,32,5
+ORL,Orlando Magic,2010,34,7,25,16,,,3,4,39,6
+LAL,Los Angeles Lakers,2010,34,7,23,18,,,11,7,27,13
+DAL,Dallas Mavericks,2010,28,13,27,14,,,9,2,21,14
+PHO,Phoenix Suns,2010,32,9,22,19,,,5,4,31,10
+ATL,Atlanta Hawks,2010,34,7,19,22,,,4,6,31,9
+DEN,Denver Nuggets,2010,34,7,19,22,,,9,4,29,13
+UTA,Utah Jazz,2010,32,9,21,20,,,5,3,32,14
+BOS,Boston Celtics,2010,24,17,26,15,,,8,6,23,10
+OKC,Oklahoma City Thunder,2010,27,14,23,18,,,7,11,25,9
+POR,Portland Trail Blazers,2010,26,15,24,17,,,6,3,24,13
+SAS,San Antonio Spurs,2010,29,12,21,20,,,6,4,34,9
+MIA,Miami Heat,2010,24,17,23,18,,,7,3,27,18
+MIL,Milwaukee Bucks,2010,28,13,18,23,,,7,12,19,17
+CHA,Charlotte Bobcats,2010,31,10,13,28,,,9,7,21,11
+HOU,Houston Rockets,2010,23,18,19,22,,,5,5,17,15
+CHI,Chicago Bulls,2010,24,17,17,24,,,7,5,15,21
+MEM,Memphis Grizzlies,2010,23,18,17,24,,,6,4,17,26
+TOR,Toronto Raptors,2010,25,16,15,26,,,6,5,19,24
+NOH,New Orleans Hornets,2010,24,17,13,28,,,6,3,5,24
+IND,Indiana Pacers,2010,23,18,9,32,,,3,5,20,28
+LAC,Los Angeles Clippers,2010,21,20,8,33,,,5,3,12,35
+NYK,New York Knicks,2010,18,23,11,30,,,4,6,10,28
+DET,Detroit Pistons,2010,17,24,10,31,,,4,1,7,29
+PHI,Philadelphia 76ers,2010,12,29,15,26,,,6,8,15,26
+GSW,Golden State Warriors,2010,18,23,8,33,,,2,8,14,28
+WAS,Washington Wizards,2010,15,26,11,30,,,5,12,11,31
+SAC,Sacramento Kings,2010,18,23,7,34,,,6,7,10,27
+MIN,Minnesota Timberwolves,2010,10,31,5,36,,,3,9,4,39
+NJN,New Jersey Nets,2010,8,33,4,37,,,1,7,5,44
+CHI,Chicago Bulls,2011,36,5,26,15,,,9,5,31,5
+SAS,San Antonio Spurs,2011,36,5,25,16,,,7,4,32,9
+MIA,Miami Heat,2011,30,11,28,13,,,2,8,35,6
+DAL,Dallas Mavericks,2011,29,12,28,13,,,10,6,22,8
+LAL,Los Angeles Lakers,2011,30,11,27,14,,,4,4,30,9
+BOS,Boston Celtics,2011,33,8,23,18,,,8,8,30,7
+OKC,Oklahoma City Thunder,2011,30,11,25,16,,,10,5,22,8
+ORL,Orlando Magic,2011,29,12,23,18,,,6,7,33,9
+DEN,Denver Nuggets,2011,33,8,17,24,,,7,8,29,10
+POR,Portland Trail Blazers,2011,30,11,18,23,,,7,4,19,15
+MEM,Memphis Grizzlies,2011,30,11,16,25,,,9,10,23,12
+NOH,New Orleans Hornets,2011,28,13,18,23,,,8,6,16,17
+ATL,Atlanta Hawks,2011,24,17,20,21,,,7,1,21,21
+HOU,Houston Rockets,2011,25,16,18,23,,,7,8,21,11
+NYK,New York Knicks,2011,23,18,19,22,,,4,5,18,14
+PHI,Philadelphia 76ers,2011,26,15,15,26,,,3,8,26,13
+PHO,Phoenix Suns,2011,23,18,17,24,,,7,6,15,18
+UTA,Utah Jazz,2011,21,20,18,23,,,6,4,16,24
+IND,Indiana Pacers,2011,24,17,13,28,,,7,6,19,28
+GSW,Golden State Warriors,2011,26,15,10,31,,,4,4,14,24
+MIL,Milwaukee Bucks,2011,22,19,13,28,,,3,8,16,21
+CHA,Charlotte Bobcats,2011,21,20,13,28,,,11,7,9,24
+LAC,Los Angeles Clippers,2011,23,18,9,32,,,4,5,9,24
+DET,Detroit Pistons,2011,21,20,9,32,,,3,7,13,27
+NJN,New Jersey Nets,2011,19,22,5,36,,,7,7,4,34
+SAC,Sacramento Kings,2011,11,30,13,28,,,8,8,7,23
+WAS,Washington Wizards,2011,20,21,3,38,,,8,2,7,36
+TOR,Toronto Raptors,2011,16,25,6,35,,,2,7,8,30
+CLE,Cleveland Cavaliers,2011,12,29,7,34,,,2,5,2,38
+MIN,Minnesota Timberwolves,2011,12,29,5,36,,,3,10,11,33
+CHI,Chicago Bulls,2012,26,7,24,9,,,5,2,31,8
+SAS,San Antonio Spurs,2012,28,5,22,11,,,5,4,31,7
+OKC,Oklahoma City Thunder,2012,26,7,21,12,,,5,4,27,5
+MIA,Miami Heat,2012,28,5,18,15,,,6,2,29,10
+IND,Indiana Pacers,2012,23,10,19,14,,,4,3,21,12
+LAL,Los Angeles Lakers,2012,26,7,15,18,,,10,4,11,10
+MEM,Memphis Grizzlies,2012,26,7,15,18,,,6,2,16,10
+ATL,Atlanta Hawks,2012,23,10,17,16,,,6,8,17,13
+LAC,Los Angeles Clippers,2012,24,9,16,17,,,7,6,17,7
+BOS,Boston Celtics,2012,24,9,15,18,,,6,5,19,11
+DEN,Denver Nuggets,2012,20,13,18,15,,,6,6,18,11
+ORL,Orlando Magic,2012,21,12,16,17,,,2,5,18,16
+DAL,Dallas Mavericks,2012,23,10,13,20,,,7,8,16,15
+NYK,New York Knicks,2012,22,11,14,19,,,7,3,19,15
+UTA,Utah Jazz,2012,25,8,11,22,,,7,6,15,14
+PHI,Philadelphia 76ers,2012,19,14,16,17,,,1,4,28,12
+HOU,Houston Rockets,2012,22,11,12,21,,,8,5,13,13
+PHO,Phoenix Suns,2012,19,14,14,19,,,8,5,14,19
+MIL,Milwaukee Bucks,2012,17,16,14,19,,,4,6,13,12
+POR,Portland Trail Blazers,2012,20,13,8,25,,,3,11,17,17
+MIN,Minnesota Timberwolves,2012,13,20,13,20,,,7,7,13,16
+DET,Detroit Pistons,2012,18,15,7,26,,,7,4,12,27
+GSW,Golden State Warriors,2012,12,21,11,22,,,5,12,7,16
+TOR,Toronto Raptors,2012,13,20,10,23,,,1,7,12,21
+NJN,New Jersey Nets,2012,9,24,13,20,,,6,2,8,26
+SAC,Sacramento Kings,2012,16,17,6,27,,,6,7,6,24
+CLE,Cleveland Cavaliers,2012,11,22,10,23,,,5,6,9,26
+NOH,New Orleans Hornets,2012,11,22,10,23,,,4,9,6,19
+WAS,Washington Wizards,2012,11,22,9,24,,,6,5,11,26
+CHA,Charlotte Bobcats,2012,4,29,3,30,,,2,4,2,38
+MIA,Miami Heat,2013,37,4,29,12,,,9,3,39,8
+OKC,Oklahoma City Thunder,2013,34,7,26,15,,,3,6,44,6
+SAS,San Antonio Spurs,2013,35,6,23,18,,,9,5,31,10
+DEN,Denver Nuggets,2013,38,3,19,22,,,11,7,28,8
+LAC,Los Angeles Clippers,2013,32,9,24,17,,,3,5,38,12
+MEM,Memphis Grizzlies,2013,32,9,24,17,,,6,4,28,9
+NYK,New York Knicks,2013,31,10,23,18,,,7,5,31,12
+BRK,Brooklyn Nets,2013,26,15,23,18,,,9,4,23,17
+IND,Indiana Pacers,2013,30,11,19,21,,,4,9,27,14
+GSW,Golden State Warriors,2013,28,13,19,22,,,5,3,20,18
+CHI,Chicago Bulls,2013,24,17,21,20,,,11,7,16,16
+HOU,Houston Rockets,2013,29,12,16,25,,,5,5,26,13
+LAL,Los Angeles Lakers,2013,29,12,16,25,,,8,5,18,17
+ATL,Atlanta Hawks,2013,25,16,19,22,,,5,5,19,20
+UTA,Utah Jazz,2013,30,11,13,28,,,5,7,19,21
+BOS,Boston Celtics,2013,27,13,14,27,,,8,7,18,23
+DAL,Dallas Mavericks,2013,24,17,17,24,,,5,8,17,19
+MIL,Milwaukee Bucks,2013,21,20,17,24,,,7,5,13,25
+PHI,Philadelphia 76ers,2013,23,18,11,30,,,4,5,13,24
+TOR,Toronto Raptors,2013,21,20,13,28,,,8,8,16,22
+POR,Portland Trail Blazers,2013,22,19,11,30,,,9,6,13,24
+MIN,Minnesota Timberwolves,2013,20,21,11,30,,,3,10,15,26
+DET,Detroit Pistons,2013,18,23,11,30,,,6,10,15,29
+WAS,Washington Wizards,2013,22,19,7,34,,,6,9,13,17
+SAC,Sacramento Kings,2013,20,21,8,33,,,7,3,12,31
+NOH,New Orleans Hornets,2013,16,25,11,30,,,7,5,10,27
+PHO,Phoenix Suns,2013,17,24,8,33,,,6,8,10,31
+CLE,Cleveland Cavaliers,2013,14,27,10,31,,,6,11,7,27
+CHA,Charlotte Bobcats,2013,15,26,6,35,,,6,6,6,37
+ORL,Orlando Magic,2013,12,29,8,33,,,2,9,8,30
+SAS,San Antonio Spurs,2014,32,9,30,11,,,7,0,35,12
+OKC,Oklahoma City Thunder,2014,34,7,25,16,,,10,4,33,8
+LAC,Los Angeles Clippers,2014,34,7,23,18,,,4,3,30,9
+IND,Indiana Pacers,2014,35,6,21,20,,,4,3,29,17
+HOU,Houston Rockets,2014,33,8,21,20,,,7,6,30,9
+MIA,Miami Heat,2014,32,9,22,19,,,8,7,29,10
+POR,Portland Trail Blazers,2014,31,10,23,18,,,8,9,24,13
+GSW,Golden State Warriors,2014,27,14,24,17,,,11,8,28,9
+MEM,Memphis Grizzlies,2014,27,14,23,18,,,10,4,18,13
+DAL,Dallas Mavericks,2014,26,15,23,18,,,11,11,23,10
+CHI,Chicago Bulls,2014,27,14,21,20,,,6,5,27,19
+TOR,Toronto Raptors,2014,26,15,22,19,,,3,8,24,6
+PHO,Phoenix Suns,2014,26,15,22,19,,,2,9,19,7
+BRK,Brooklyn Nets,2014,28,13,16,25,,,8,3,17,20
+WAS,Washington Wizards,2014,22,19,22,19,,,5,9,19,14
+CHA,Charlotte Bobcats,2014,25,16,18,23,,,8,8,18,19
+MIN,Minnesota Timberwolves,2014,24,17,16,25,,,5,6,26,18
+ATL,Atlanta Hawks,2014,24,17,14,27,,,8,9,15,16
+NYK,New York Knicks,2014,19,22,18,23,,,3,8,19,22
+DEN,Denver Nuggets,2014,22,19,14,27,,,8,5,16,24
+NOP,New Orleans Pelicans,2014,22,19,12,29,,,7,8,10,21
+CLE,Cleveland Cavaliers,2014,19,22,14,27,,,7,5,13,27
+DET,Detroit Pistons,2014,17,24,12,29,,,2,6,16,25
+SAC,Sacramento Kings,2014,17,24,11,30,,,4,9,12,26
+LAL,Los Angeles Lakers,2014,14,27,13,28,,,5,5,12,33
+BOS,Boston Celtics,2014,16,25,9,32,,,5,9,9,23
+UTA,Utah Jazz,2014,16,25,9,32,,,5,4,9,39
+ORL,Orlando Magic,2014,19,22,4,37,,,5,7,10,30
+PHI,Philadelphia 76ers,2014,10,31,9,32,,,6,3,4,46
+MIL,Milwaukee Bucks,2014,10,31,5,36,,,4,5,4,33
+GSW,Golden State Warriors,2015,39,2,28,13,,,5,3,45,9
+ATL,Atlanta Hawks,2015,35,6,25,16,,,6,4,30,10
+HOU,Houston Rockets,2015,30,11,26,15,,,8,4,31,14
+LAC,Los Angeles Clippers,2015,30,11,26,15,,,3,5,33,9
+MEM,Memphis Grizzlies,2015,31,10,24,17,,,9,3,26,13
+SAS,San Antonio Spurs,2015,33,8,22,19,,,6,7,34,7
+CLE,Cleveland Cavaliers,2015,31,10,22,19,,,6,4,30,14
+POR,Portland Trail Blazers,2015,32,9,19,22,,,5,1,30,11
+CHI,Chicago Bulls,2015,27,14,23,18,,,7,2,20,16
+DAL,Dallas Mavericks,2015,27,14,23,18,,,5,4,22,18
+TOR,Toronto Raptors,2015,27,14,22,19,,,6,5,29,11
+WAS,Washington Wizards,2015,29,12,17,24,,,9,4,21,14
+NOP,New Orleans Pelicans,2015,28,13,17,24,,,10,4,19,14
+OKC,Oklahoma City Thunder,2015,29,12,16,25,,,4,8,26,14
+MIL,Milwaukee Bucks,2015,23,18,18,23,,,5,9,17,16
+BOS,Boston Celtics,2015,21,20,19,22,,,8,6,17,14
+PHO,Phoenix Suns,2015,22,19,17,24,,,4,12,14,19
+BRK,Brooklyn Nets,2015,19,22,19,22,,,10,2,15,23
+IND,Indiana Pacers,2015,23,18,15,26,,,4,12,19,20
+UTA,Utah Jazz,2015,21,20,17,24,,,5,10,18,19
+MIA,Miami Heat,2015,20,21,17,24,,,4,10,15,28
+CHO,Charlotte Hornets,2015,19,22,14,27,,,6,8,13,22
+DET,Detroit Pistons,2015,18,23,14,27,,,7,6,19,25
+DEN,Denver Nuggets,2015,19,22,11,30,,,4,4,17,28
+SAC,Sacramento Kings,2015,18,23,11,30,,,6,4,12,28
+ORL,Orlando Magic,2015,13,28,12,29,,,6,8,4,27
+LAL,Los Angeles Lakers,2015,12,29,9,32,,,6,6,5,30
+PHI,Philadelphia 76ers,2015,12,29,6,35,,,3,7,5,41
+NYK,New York Knicks,2015,10,31,7,34,,,2,7,3,39
+MIN,Minnesota Timberwolves,2015,9,32,7,34,,,6,6,4,40
+GSW,Golden State Warriors,2016,39,2,34,7,,,7,2,44,5
+SAS,San Antonio Spurs,2016,40,1,27,14,,,4,4,44,6
+CLE,Cleveland Cavaliers,2016,33,8,24,17,,,4,7,32,8
+TOR,Toronto Raptors,2016,32,9,24,17,,,6,6,28,10
+OKC,Oklahoma City Thunder,2016,32,9,23,18,,,8,6,33,5
+LAC,Los Angeles Clippers,2016,29,12,24,17,,,8,4,28,15
+ATL,Atlanta Hawks,2016,27,14,21,20,,,5,7,29,17
+BOS,Boston Celtics,2016,28,13,20,21,,,5,7,26,13
+CHO,Charlotte Hornets,2016,30,11,18,23,,,6,5,25,17
+MIA,Miami Heat,2016,28,13,20,21,,,7,5,24,20
+IND,Indiana Pacers,2016,26,15,19,22,,,9,9,21,13
+DET,Detroit Pistons,2016,26,15,18,23,,,6,5,21,20
+POR,Portland Trail Blazers,2016,28,13,16,25,,,2,7,23,21
+DAL,Dallas Mavericks,2016,23,18,19,22,,,6,11,19,18
+MEM,Memphis Grizzlies,2016,26,15,16,25,,,8,3,15,23
+CHI,Chicago Bulls,2016,26,15,16,25,,,10,4,14,19
+HOU,Houston Rockets,2016,23,18,18,23,,,5,8,14,18
+WAS,Washington Wizards,2016,22,19,19,22,,,7,6,22,22
+UTA,Utah Jazz,2016,24,17,16,25,,,6,8,23,13
+ORL,Orlando Magic,2016,23,18,12,29,,,6,10,12,20
+DEN,Denver Nuggets,2016,18,23,15,26,,,10,5,11,21
+MIL,Milwaukee Bucks,2016,23,18,10,31,,,6,4,12,27
+SAC,Sacramento Kings,2016,18,23,15,26,,,8,4,11,19
+NYK,New York Knicks,2016,18,23,14,27,,,4,7,14,23
+NOP,New Orleans Pelicans,2016,21,20,9,32,,,5,5,11,23
+MIN,Minnesota Timberwolves,2016,14,27,15,26,,,7,7,9,23
+PHO,Phoenix Suns,2016,14,27,9,32,,,4,5,10,32
+BRK,Brooklyn Nets,2016,14,27,7,34,,,7,4,6,34
+LAL,Los Angeles Lakers,2016,12,29,5,36,,,2,7,4,44
+PHI,Philadelphia 76ers,2016,7,34,3,38,,,0,6,5,41
+GSW,Golden State Warriors,2017,36,5,31,10,,,3,4,48,6
+SAS,San Antonio Spurs,2017,31,10,30,11,,,8,5,30,8
+HOU,Houston Rockets,2017,30,11,25,16,,,8,3,30,11
+BOS,Boston Celtics,2017,30,11,23,18,,,7,6,17,11
+CLE,Cleveland Cavaliers,2017,31,10,20,21,,,3,4,25,15
+LAC,Los Angeles Clippers,2017,29,12,22,19,,,3,6,33,14
+TOR,Toronto Raptors,2017,28,13,23,18,,,8,7,26,8
+UTA,Utah Jazz,2017,29,12,22,19,,,4,4,23,10
+WAS,Washington Wizards,2017,30,11,19,22,,,9,6,18,12
+OKC,Oklahoma City Thunder,2017,28,13,19,22,,,12,7,23,21
+ATL,Atlanta Hawks,2017,23,18,20,21,,,7,8,17,21
+MEM,Memphis Grizzlies,2017,24,17,19,22,,,7,5,17,20
+IND,Indiana Pacers,2017,29,12,13,28,,,4,2,23,19
+MIL,Milwaukee Bucks,2017,23,18,19,22,,,8,2,21,22
+CHI,Chicago Bulls,2017,25,16,16,25,,,5,6,17,23
+POR,Portland Trail Blazers,2017,25,16,16,25,,,7,11,18,16
+MIA,Miami Heat,2017,23,18,18,23,,,8,6,19,13
+DEN,Denver Nuggets,2017,22,19,18,23,,,5,10,24,19
+DET,Detroit Pistons,2017,24,17,13,28,,,5,7,23,26
+CHO,Charlotte Hornets,2017,22,19,14,27,,,0,9,19,18
+NOP,New Orleans Pelicans,2017,21,20,13,28,,,7,6,17,22
+DAL,Dallas Mavericks,2017,21,20,12,29,,,4,6,14,26
+SAC,Sacramento Kings,2017,17,24,15,26,,,10,6,9,27
+MIN,Minnesota Timberwolves,2017,20,21,11,30,,,7,10,18,19
+NYK,New York Knicks,2017,19,22,12,29,,,7,10,10,25
+ORL,Orlando Magic,2017,16,25,13,28,,,5,5,10,32
+PHI,Philadelphia 76ers,2017,17,24,11,30,,,9,8,7,29
+LAL,Los Angeles Lakers,2017,17,24,9,32,,,2,4,14,31
+PHO,Phoenix Suns,2017,15,26,9,32,,,9,5,7,32
+BRK,Brooklyn Nets,2017,13,28,7,34,,,3,6,9,30
+HOU,Houston Rockets,2018,34,7,31,10,,,5,3,38,8
+TOR,Toronto Raptors,2018,34,7,25,16,,,5,7,33,5
+GSW,Golden State Warriors,2018,29,12,29,12,,,5,1,38,13
+BOS,Boston Celtics,2018,27,14,28,13,,,11,8,25,9
+PHI,Philadelphia 76ers,2018,30,11,22,19,,,4,7,31,11
+CLE,Cleveland Cavaliers,2018,29,12,21,20,,,8,5,17,20
+POR,Portland Trail Blazers,2018,28,13,21,20,,,8,8,20,12
+IND,Indiana Pacers,2018,27,14,21,20,,,11,2,20,16
+NOP,New Orleans Pelicans,2018,24,17,24,17,,,7,3,19,16
+OKC,Oklahoma City Thunder,2018,27,14,21,20,,,8,10,24,11
+UTA,Utah Jazz,2018,28,13,20,21,,,4,5,31,19
+MIN,Minnesota Timberwolves,2018,30,11,17,24,,,7,7,25,12
+SAS,San Antonio Spurs,2018,33,8,14,27,,,8,10,25,17
+DEN,Denver Nuggets,2018,31,10,15,26,,,10,5,21,15
+MIA,Miami Heat,2018,26,15,18,23,,,9,9,16,13
+MIL,Milwaukee Bucks,2018,25,16,19,22,,,7,4,14,16
+WAS,Washington Wizards,2018,23,18,20,21,,,5,7,22,12
+LAC,Los Angeles Clippers,2018,22,19,20,21,,,8,2,22,19
+DET,Detroit Pistons,2018,25,16,14,27,,,4,7,19,23
+CHO,Charlotte Hornets,2018,21,20,15,26,,,1,5,23,23
+LAL,Los Angeles Lakers,2018,20,21,15,26,,,6,7,18,21
+NYK,New York Knicks,2018,19,22,10,31,,,2,7,15,30
+BRK,Brooklyn Nets,2018,15,26,13,28,,,5,7,9,27
+CHI,Chicago Bulls,2018,17,24,10,31,,,9,5,6,30
+SAC,Sacramento Kings,2018,14,27,13,28,,,6,5,5,32
+ORL,Orlando Magic,2018,17,24,8,33,,,3,5,10,27
+ATL,Atlanta Hawks,2018,16,25,8,33,,,6,8,8,35
+DAL,Dallas Mavericks,2018,15,26,9,32,,,2,9,11,20
+MEM,Memphis Grizzlies,2018,16,25,6,35,,,5,12,8,26
+PHO,Phoenix Suns,2018,10,31,11,30,,,6,5,5,40
+MIL,Milwaukee Bucks,2019,33,8,27,14,,,5,6,45,5
+TOR,Toronto Raptors,2019,32,9,26,15,,,11,7,33,9
+GSW,Golden State Warriors,2019,30,11,27,14,,,7,7,34,10
+DEN,Denver Nuggets,2019,34,7,20,21,,,13,3,23,11
+HOU,Houston Rockets,2019,31,10,22,19,,,5,7,29,12
+POR,Portland Trail Blazers,2019,32,9,21,20,,,4,6,29,8
+PHI,Philadelphia 76ers,2019,31,10,20,21,,,10,8,22,16
+UTA,Utah Jazz,2019,29,12,21,20,,,0,7,34,12
+BOS,Boston Celtics,2019,28,13,21,20,,,5,6,24,12
+OKC,Oklahoma City Thunder,2019,27,14,22,19,,,6,7,23,12
+IND,Indiana Pacers,2019,29,12,19,22,,,6,6,23,16
+LAC,Los Angeles Clippers,2019,26,15,22,19,,,6,2,23,18
+SAS,San Antonio Spurs,2019,32,9,16,25,,,7,4,25,16
+BRK,Brooklyn Nets,2019,23,18,19,22,,,12,8,16,22
+ORL,Orlando Magic,2019,25,16,17,24,,,5,6,21,21
+DET,Detroit Pistons,2019,26,15,15,26,,,6,9,16,21
+CHO,Charlotte Hornets,2019,25,16,14,27,,,6,10,21,20
+MIA,Miami Heat,2019,19,22,20,21,,,6,9,16,20
+SAC,Sacramento Kings,2019,24,17,15,26,,,6,7,16,18
+LAL,Los Angeles Lakers,2019,22,19,15,26,,,5,4,16,25
+MIN,Minnesota Timberwolves,2019,25,16,11,30,,,8,5,19,22
+DAL,Dallas Mavericks,2019,24,17,9,32,,,7,7,12,22
+MEM,Memphis Grizzlies,2019,21,20,12,29,,,6,9,14,19
+NOP,New Orleans Pelicans,2019,19,22,14,27,,,4,6,15,20
+WAS,Washington Wizards,2019,22,19,10,31,,,5,6,14,23
+ATL,Atlanta Hawks,2019,17,24,12,29,,,9,6,7,31
+CHI,Chicago Bulls,2019,9,32,13,28,,,8,8,9,31
+CLE,Cleveland Cavaliers,2019,13,28,6,35,,,5,4,6,43
+PHO,Phoenix Suns,2019,12,29,7,34,,,5,5,5,40
+NYK,New York Knicks,2019,9,32,8,33,,,4,7,6,41
+MIL,Milwaukee Bucks,2020,30,5,26,12,,,3,2,38,8
+TOR,Toronto Raptors,2020,26,10,27,9,,,6,4,23,10
+LAL,Los Angeles Lakers,2020,25,10,27,9,,,7,3,25,11
+LAC,Los Angeles Clippers,2020,27,9,22,14,,,8,3,32,8
+BOS,Boston Celtics,2020,26,10,22,14,,,6,5,29,7
+DEN,Denver Nuggets,2020,26,11,20,16,,,9,5,16,13
+IND,Indiana Pacers,2020,25,11,20,17,,,5,7,20,12
+HOU,Houston Rockets,2020,24,12,20,16,,,4,5,22,14
+MIA,Miami Heat,2020,29,7,15,22,,,6,4,23,11
+OKC,Oklahoma City Thunder,2020,23,14,21,14,,,8,6,18,10
+UTA,Utah Jazz,2020,23,12,21,16,,,7,5,18,11
+DAL,Dallas Mavericks,2020,20,18,23,14,,,2,11,23,9
+PHI,Philadelphia 76ers,2020,31,4,12,26,,,6,5,19,15
+BRK,Brooklyn Nets,2020,20,16,15,21,,,7,7,17,19
+POR,Portland Trail Blazers,2020,21,15,14,24,,,9,3,17,18
+MEM,Memphis Grizzlies,2020,20,17,14,22,,,3,4,18,21
+PHO,Phoenix Suns,2020,17,22,17,17,,,4,8,15,18
+ORL,Orlando Magic,2020,18,17,15,23,,,5,5,18,20
+SAS,San Antonio Spurs,2020,19,15,13,24,,,10,7,10,12
+SAC,Sacramento Kings,2020,16,19,15,22,,,6,8,12,18
+NOP,New Orleans Pelicans,2020,15,21,15,21,,,2,6,18,15
+WAS,Washington Wizards,2020,16,20,9,27,,,1,4,12,25
+CHO,Charlotte Hornets,2020,10,21,13,21,,,9,8,5,25
+CHI,Chicago Bulls,2020,14,20,8,23,,,6,6,7,19
+NYK,New York Knicks,2020,11,22,10,23,,,7,6,8,21
+ATL,Atlanta Hawks,2020,14,20,6,27,,,1,5,8,29
+DET,Detroit Pistons,2020,11,22,9,24,,,4,6,9,26
+CLE,Cleveland Cavaliers,2020,11,25,8,21,,,5,5,6,28
+MIN,Minnesota Timberwolves,2020,8,24,11,21,,,3,4,10,21
+GSW,Golden State Warriors,2020,8,26,7,24,,,1,3,8,30
+UTA,Utah Jazz,2021,31,5,21,15,,,3,2,39,7
+PHO,Phoenix Suns,2021,27,9,24,12,,,9,3,23,8
+PHI,Philadelphia 76ers,2021,29,7,20,16,,,7,3,27,12
+BRK,Brooklyn Nets,2021,28,8,20,16,,,3,5,24,11
+DEN,Denver Nuggets,2021,25,11,22,14,,,6,4,29,11
+LAC,Los Angeles Clippers,2021,26,10,21,15,,,3,4,31,7
+MIL,Milwaukee Bucks,2021,26,10,20,16,,,6,5,29,12
+DAL,Dallas Mavericks,2021,21,15,21,15,,,5,4,26,17
+LAL,Los Angeles Lakers,2021,21,15,21,15,,,7,5,22,13
+POR,Portland Trail Blazers,2021,20,16,22,14,,,10,9,19,12
+ATL,Atlanta Hawks,2021,25,11,16,20,,,3,3,25,15
+NYK,New York Knicks,2021,25,11,16,20,,,2,9,24,15
+MIA,Miami Heat,2021,21,15,19,17,,,4,5,17,17
+GSW,Golden State Warriors,2021,25,11,14,22,,,6,4,25,18
+MEM,Memphis Grizzlies,2021,18,18,20,16,,,3,7,23,21
+BOS,Boston Celtics,2021,21,15,15,21,,,7,5,17,12
+WAS,Washington Wizards,2021,19,17,15,21,,,11,8,14,20
+IND,Indiana Pacers,2021,13,23,21,15,,,5,4,15,17
+CHO,Charlotte Hornets,2021,18,18,15,21,,,9,4,14,24
+SAS,San Antonio Spurs,2021,14,22,19,17,,,7,8,18,20
+CHI,Chicago Bulls,2021,15,21,16,20,,,3,5,16,20
+NOP,New Orleans Pelicans,2021,18,18,13,23,,,3,10,13,21
+SAC,Sacramento Kings,2021,16,20,15,21,,,10,5,12,22
+TOR,Toronto Raptors,2021,16,20,11,25,,,3,6,17,19
+MIN,Minnesota Timberwolves,2021,13,23,10,26,,,4,6,9,25
+CLE,Cleveland Cavaliers,2021,13,23,9,27,,,4,2,11,37
+OKC,Oklahoma City Thunder,2021,10,26,12,24,,,7,5,5,36
+ORL,Orlando Magic,2021,11,25,10,26,,,3,5,6,35
+DET,Detroit Pistons,2021,13,23,7,29,,,1,8,14,31
+HOU,Houston Rockets,2021,9,27,8,28,,,3,4,8,37
+PHO,Phoenix Suns,2022,32,9,32,9,,,6,2,37,9
+MEM,Memphis Grizzlies,2022,30,11,26,15,,,5,3,33,17
+GSW,Golden State Warriors,2022,31,10,22,19,,,6,5,34,10
+MIA,Miami Heat,2022,29,12,24,17,,,3,6,31,15
+DAL,Dallas Mavericks,2022,29,12,23,18,,,7,5,27,14
+BOS,Boston Celtics,2022,28,13,23,18,,,3,9,35,9
+MIL,Milwaukee Bucks,2022,27,14,24,17,,,4,2,31,15
+PHI,Philadelphia 76ers,2022,24,17,27,14,,,6,6,28,11
+UTA,Utah Jazz,2022,29,12,20,21,,,1,6,34,10
+DEN,Denver Nuggets,2022,23,18,25,16,,,8,3,23,20
+TOR,Toronto Raptors,2022,24,17,24,17,,,7,6,25,14
+CHI,Chicago Bulls,2022,27,14,19,22,,,4,4,23,20
+MIN,Minnesota Timberwolves,2022,26,15,20,21,,,4,4,28,21
+BRK,Brooklyn Nets,2022,20,21,24,17,,,8,4,20,20
+CLE,Cleveland Cavaliers,2022,25,16,19,22,,,10,4,22,19
+ATL,Atlanta Hawks,2022,27,14,16,25,,,7,3,24,18
+CHO,Charlotte Hornets,2022,22,19,21,20,,,6,8,24,23
+LAC,Los Angeles Clippers,2022,25,16,17,24,,,10,5,20,21
+NYK,New York Knicks,2022,17,24,20,21,,,5,6,19,23
+NOP,New Orleans Pelicans,2022,19,22,17,24,,,4,3,23,30
+WAS,Washington Wizards,2022,21,20,14,27,,,12,6,11,27
+SAS,San Antonio Spurs,2022,16,25,18,23,,,6,5,19,24
+LAL,Los Angeles Lakers,2022,21,20,12,29,,,5,7,13,22
+SAC,Sacramento Kings,2022,16,25,14,27,,,7,8,11,30
+POR,Portland Trail Blazers,2022,17,24,10,31,,,1,5,11,41
+IND,Indiana Pacers,2022,16,25,9,32,,,3,14,14,19
+OKC,Oklahoma City Thunder,2022,12,29,12,29,,,7,6,9,32
+DET,Detroit Pistons,2022,13,28,10,31,,,7,6,6,33
+ORL,Orlando Magic,2022,12,29,10,31,,,2,7,6,39
+HOU,Houston Rockets,2022,11,30,9,32,,,3,9,9,44
+MIL,Milwaukee Bucks,2023,32,9,26,15,,,6,1,30,15
+BOS,Boston Celtics,2023,32,9,25,16,,,5,8,31,11
+PHI,Philadelphia 76ers,2023,29,12,25,16,,,10,5,26,11
+DEN,Denver Nuggets,2023,34,7,19,22,,,7,6,29,15
+CLE,Cleveland Cavaliers,2023,31,10,20,21,,,5,8,33,11
+MEM,Memphis Grizzlies,2023,35,6,16,25,,,3,6,31,17
+SAC,Sacramento Kings,2023,23,18,25,16,,,9,7,19,13
+NYK,New York Knicks,2023,23,18,24,17,,,10,4,23,13
+BRK,Brooklyn Nets,2023,23,18,22,19,,,10,4,22,17
+PHO,Phoenix Suns,2023,28,13,17,24,,,4,9,28,17
+GSW,Golden State Warriors,2023,33,8,11,30,,,4,8,24,16
+LAC,Los Angeles Clippers,2023,23,18,21,20,,,4,6,20,21
+MIA,Miami Heat,2023,27,14,17,24,,,14,8,12,13
+LAL,Los Angeles Lakers,2023,23,18,20,21,,,8,5,19,19
+MIN,Minnesota Timberwolves,2023,22,19,20,21,,,6,7,15,16
+NOP,New Orleans Pelicans,2023,27,14,15,26,,,4,6,25,20
+ATL,Atlanta Hawks,2023,24,17,17,24,,,10,7,19,15
+TOR,Toronto Raptors,2023,27,14,14,27,,,4,10,23,16
+CHI,Chicago Bulls,2023,22,19,18,23,,,4,7,24,19
+OKC,Oklahoma City Thunder,2023,24,17,16,25,,,7,7,21,15
+DAL,Dallas Mavericks,2023,23,18,15,26,,,8,12,11,12
+UTA,Utah Jazz,2023,23,18,14,27,,,10,8,13,16
+IND,Indiana Pacers,2023,20,21,15,26,,,8,7,9,25
+WAS,Washington Wizards,2023,19,22,16,25,,,7,6,19,21
+ORL,Orlando Magic,2023,20,21,14,27,,,5,6,16,24
+POR,Portland Trail Blazers,2023,17,24,16,25,,,8,7,18,28
+CHO,Charlotte Hornets,2023,13,28,14,27,,,3,3,8,35
+HOU,Houston Rockets,2023,14,27,8,33,,,5,4,6,36
+SAS,San Antonio Spurs,2023,14,27,8,33,,,3,3,6,42
+DET,Detroit Pistons,2023,9,32,8,33,,,2,8,6,37
+BOS,Boston Celtics,2024,37,4,27,14,,,6,7,42,5
+DEN,Denver Nuggets,2024,33,8,24,17,,,6,6,28,10
+OKC,Oklahoma City Thunder,2024,33,8,24,17,,,6,3,32,10
+MIN,Minnesota Timberwolves,2024,30,11,26,15,,,7,6,32,10
+LAC,Los Angeles Clippers,2024,25,16,26,15,,,6,4,28,17
+DAL,Dallas Mavericks,2024,25,16,25,16,,,5,2,31,21
+NYK,New York Knicks,2024,27,14,23,18,,,4,3,32,16
+MIL,Milwaukee Bucks,2024,31,11,18,22,,,4,6,25,16
+NOP,New Orleans Pelicans,2024,21,19,28,14,,,1,7,32,18
+PHO,Phoenix Suns,2024,25,16,24,17,,,8,6,29,14
+CLE,Cleveland Cavaliers,2024,26,15,22,19,,,9,5,24,16
+IND,Indiana Pacers,2024,26,15,21,20,,,6,5,30,16
+LAL,Los Angeles Lakers,2024,28,14,19,21,,,11,4,20,25
+ORL,Orlando Magic,2024,29,12,18,23,,,6,9,27,20
+PHI,Philadelphia 76ers,2024,25,16,22,19,,,3,4,27,18
+MIA,Miami Heat,2024,22,19,24,17,,,8,4,21,15
+GSW,Golden State Warriors,2024,21,20,25,16,,,4,11,24,12
+SAC,Sacramento Kings,2024,24,17,22,19,,,6,5,26,19
+HOU,Houston Rockets,2024,27,14,14,27,,,8,5,23,17
+CHI,Chicago Bulls,2024,20,21,19,22,,,6,8,12,25
+ATL,Atlanta Hawks,2024,21,20,15,26,,,9,6,15,21
+BRK,Brooklyn Nets,2024,20,21,12,29,,,4,6,17,28
+UTA,Utah Jazz,2024,21,20,10,31,,,5,8,15,33
+MEM,Memphis Grizzlies,2024,9,32,18,23,,,6,3,11,31
+TOR,Toronto Raptors,2024,14,27,11,30,,,5,10,10,30
+SAS,San Antonio Spurs,2024,12,29,10,31,,,5,7,12,31
+CHO,Charlotte Hornets,2024,11,30,10,31,,,7,3,5,43
+POR,Portland Trail Blazers,2024,11,30,10,31,,,5,6,5,38
+WAS,Washington Wizards,2024,7,34,8,33,,,4,5,6,35
+DET,Detroit Pistons,2024,7,33,7,35,,,1,7,8,39
+OKC,Oklahoma City Thunder,2025,36,6,32,8,,,1,4,54,5
+CLE,Cleveland Cavaliers,2025,34,7,30,11,,,5,4,41,7
+BOS,Boston Celtics,2025,28,13,33,8,,,8,3,41,7
+HOU,Houston Rockets,2025,29,12,23,18,,,8,5,26,12
+NYK,New York Knicks,2025,27,14,24,17,,,7,3,31,19
+DEN,Denver Nuggets,2025,26,15,24,17,,,8,6,31,17
+IND,Indiana Pacers,2025,29,12,21,20,,,6,2,25,17
+LAC,Los Angeles Clippers,2025,30,11,20,21,,,5,7,32,13
+LAL,Los Angeles Lakers,2025,31,10,19,22,,,4,6,22,21
+MIN,Minnesota Timberwolves,2025,25,16,24,17,,,11,11,31,9
+GSW,Golden State Warriors,2025,24,17,24,17,,,6,6,26,15
+MEM,Memphis Grizzlies,2025,26,15,22,19,,,9,6,31,15
+MIL,Milwaukee Bucks,2025,28,14,20,20,,,5,9,25,19
+DET,Detroit Pistons,2025,22,19,22,19,,,8,6,23,17
+ORL,Orlando Magic,2025,22,19,19,22,,,4,7,22,20
+ATL,Atlanta Hawks,2025,21,19,19,23,,,8,6,20,21
+SAC,Sacramento Kings,2025,20,21,20,21,,,4,9,22,19
+CHI,Chicago Bulls,2025,18,23,21,20,,,6,4,23,26
+DAL,Dallas Mavericks,2025,22,18,17,25,,,5,8,17,24
+MIA,Miami Heat,2025,19,22,18,23,,,3,11,22,18
+PHO,Phoenix Suns,2025,24,17,12,29,,,7,5,13,26
+POR,Portland Trail Blazers,2025,22,19,14,27,,,7,4,19,30
+SAS,San Antonio Spurs,2025,20,21,14,27,,,7,7,17,32
+TOR,Toronto Raptors,2025,18,23,12,29,,,7,9,16,28
+BRK,Brooklyn Nets,2025,12,29,14,27,,,8,7,7,32
+PHI,Philadelphia 76ers,2025,12,29,12,29,,,4,4,10,35
+NOP,New Orleans Pelicans,2025,14,27,7,34,,,3,8,6,38
+CHO,Charlotte Hornets,2025,12,29,7,34,,,8,7,5,39
+WAS,Washington Wizards,2025,8,33,10,31,,,7,2,5,53
+UTA,Utah Jazz,2025,10,31,7,34,,,5,8,8,37
+OKC,Oklahoma City Thunder,2026,34,8,30,10,,,5,6,43,9
+SAS,San Antonio Spurs,2026,32,8,30,12,,,8,5,43,8
+DET,Detroit Pistons,2026,32,9,28,13,,,10,6,34,8
+BOS,Boston Celtics,2026,30,11,26,15,,,5,7,38,10
+DEN,Denver Nuggets,2026,28,13,26,15,,,9,11,28,9
+LAL,Los Angeles Lakers,2026,28,13,25,16,,,8,3,28,21
+NYK,New York Knicks,2026,30,10,23,19,,,9,4,32,19
+CLE,Cleveland Cavaliers,2026,27,14,25,16,,,2,5,27,17
+HOU,Houston Rockets,2026,30,11,22,19,,,5,9,27,11
+MIN,Minnesota Timberwolves,2026,26,15,23,18,,,6,4,28,18
+ATL,Atlanta Hawks,2026,24,17,22,19,,,7,8,33,19
+TOR,Toronto Raptors,2026,24,17,22,19,,,7,4,33,23
+ORL,Orlando Magic,2026,26,16,19,21,,,11,5,19,19
+PHI,Philadelphia 76ers,2026,23,18,22,19,,,6,8,26,20
+PHO,Phoenix Suns,2026,25,16,20,21,,,7,10,25,17
+CHO,Charlotte Hornets,2026,21,20,23,18,,,3,6,32,19
+MIA,Miami Heat,2026,26,15,17,24,,,6,4,29,23
+POR,Portland Trail Blazers,2026,24,17,18,23,,,6,5,23,18
+LAC,Los Angeles Clippers,2026,23,18,19,22,,,7,8,25,23
+GSW,Golden State Warriors,2026,22,19,15,26,,,5,6,20,23
+MIL,Milwaukee Bucks,2026,19,22,13,28,,,6,6,19,33
+CHI,Chicago Bulls,2026,18,23,13,28,,,10,6,13,33
+DAL,Dallas Mavericks,2026,16,25,10,31,,,5,7,9,30
+NOP,New Orleans Pelicans,2026,17,24,9,32,,,2,5,15,25
+MEM,Memphis Grizzlies,2026,14,27,11,30,,,3,5,9,32
+SAC,Sacramento Kings,2026,15,26,7,34,,,3,4,6,40
+UTA,Utah Jazz,2026,14,27,8,33,,,5,8,9,41
+BRK,Brooklyn Nets,2026,12,29,8,33,,,2,4,12,43
+IND,Indiana Pacers,2026,11,30,8,33,,,7,6,7,38
+WAS,Washington Wizards,2026,11,30,6,35,,,2,2,8,51

@@ -7,10 +7,10 @@ import re
 import pomozni_podatki as POM
 
 
-# podatki o sezoni, vrne BeautifulSoup
-def pridobi_podatke_sezona(leto):
+# pridobi spletno stran, vrne BeautifulSoup
+def pridobi_stran(leto, url_funkcija):
 
-    stran = requests.get(POM.SEZONA_URL(leto), headers=POM.HEADERS)
+    stran = requests.get(url_funkcija(leto), headers=POM.HEADERS)
     soup = BeautifulSoup(stran.text, "html.parser")
 
     time.sleep(5)
@@ -18,8 +18,6 @@ def pridobi_podatke_sezona(leto):
     return soup
 
 
-def pridobi_podatke_igralec(id):
-    ...
 
 #======================== Pomožne funkcije =================================
 
@@ -47,7 +45,74 @@ def razdeli_rezultat(podatek):
 
 #======================== Glavne funkcije ==================================
 
-def izlusci_podatke_konference(soup, leto):
+def izlusci_statistiko(soup, leto):
+    seznam_podatkov = []
+
+    tabela = soup.find("table", id="totals-team").find("tbody")
+    vrstice = tabela.find_all("tr")
+
+
+    for vrstica in vrstice:
+
+        # id, ime
+        id_ekipe, ime_ekipe = id_ime_ekipe(vrstica)
+
+        # odigrane minute
+        minute = podatek_vrstice(vrstica, "mp")
+
+        # število metov in poskusov
+        meti_3 = podatek_vrstice(vrstica, "fg3")
+        poskusi_3 = podatek_vrstice(vrstica, "fg3a")
+
+        meti_2 = podatek_vrstice(vrstica, "fg2")
+        poskusi_2 = podatek_vrstice(vrstica, "fg2a")
+
+        meti_ft = podatek_vrstice(vrstica, "ft")
+        poskusi_ft = podatek_vrstice(vrstica, "fta")
+
+        # skoki (rebounds)
+        skoki_nap = podatek_vrstice(vrstica, "orb")
+        skoki_obr = podatek_vrstice(vrstica, "drb")
+
+        # asistence (assists)
+        asist = podatek_vrstice(vrstica, "ast")
+
+        # ukradene žoge (steals)
+        ukrad = podatek_vrstice(vrstica, "stl")
+
+        # blokade (blocks)
+        blokade = podatek_vrstice(vrstica, "blk")
+
+        # izgubljene žoge (turnovers)
+        izg = podatek_vrstice(vrstica, "tov")
+
+        # osebni prekrški (personal fouls)
+        prek = podatek_vrstice(vrstica, "pf")
+
+        seznam_podatkov.append({
+            "id": id_ekipe,
+            "ime": ime_ekipe,
+            "leto": leto,
+            "odigrane minute": minute,
+            "meti 3 točke": meti_3,
+            "poskusi 3 točke": poskusi_3,
+            "meti 2 točki": meti_2,
+            "poskusi 2 točki": poskusi_2,
+            "prosti meti": meti_ft,
+            "poskusi prostih metov": poskusi_ft,
+            "skoki v napadu": skoki_nap,
+            "skoki v obrambi": skoki_obr,
+            "asistence": asist,
+            "ukradene žoge": ukrad,
+            "blokade": blokade,
+            "izgubljene žoge": izg,
+            "osebni prekrški": prek
+        })
+
+    return seznam_podatkov
+
+
+def izlusci_igre_konference(soup, leto):
     seznam_podatkov = []
 
     # tabeli po konferencah - od leta 1971 naprej - prej je samo brez E in W, na koncu je underscore
@@ -95,10 +160,10 @@ def izlusci_podatke_konference(soup, leto):
     return seznam_podatkov
 
 
-def izlusci_podatke_razsirjeno(soup, leto):
+def izlusci_igre_razsirjeno(soup, leto):
     seznam_podatkov = []
 
-    # tabela razširjenih statistik - zakomentirana (poglej če je za vsa leta zakomentirana)
+    # tabela razširjenih statistik - zakomentirana
     tabela_raz = soup.find(
             string = lambda text: isinstance(text, Comment) and "div_expanded_standings" in text
                 )
@@ -126,11 +191,11 @@ def izlusci_podatke_razsirjeno(soup, leto):
         else:
             nevtralno_z, nevtralno_p = razdeli_rezultat(nevtralno)
 
-        # zmage, porazi z razliko točk manjšo ali enako 3
+        # zmage, porazi z razliko točk <= 3
         mala_razlika = podatek_vrstice(vrstica, "3")
         mala_z, mala_p = razdeli_rezultat(mala_razlika)
 
-        # zmage, porazi z razliko točk večjo ali enako 10
+        # zmage, porazi z razliko točk >= 10
         velika_razlika = podatek_vrstice(vrstica, "10")
         velika_z, velika_p = razdeli_rezultat(velika_razlika)
 
@@ -140,40 +205,25 @@ def izlusci_podatke_razsirjeno(soup, leto):
             "leto": leto,
             "zmage doma": doma_z,
             "porazi doma": doma_p,
-            "zmage gosti": gosti_z,
-            "porazi gosti": gosti_p,
+            "zmage v gosteh": gosti_z,
+            "porazi v gosteh": gosti_p,
             "zmage nevtralno": nevtralno_z,
             "porazi nevtralno": nevtralno_p,
-            "zmaga <=3": mala_z,
-            "poraz <=3": mala_p,
-            "zmaga >=10": velika_z,
-            "poraz >=10": velika_p
+            "zmage <= 3": mala_z,
+            "porazi <= 3": mala_p,
+            "zmage >= 10": velika_z,
+            "porazi >= 10": velika_p
         })
 
     return seznam_podatkov
-
-for leto in range(2020, 2027):
-    spletna_soup = pridobi_podatke_sezona(leto)
-    if spletna_soup:
-        print(f"Uspešno pridobil podatke za leto {leto}")
-    konf = izlusci_podatke_konference(spletna_soup, leto)
-    raz = izlusci_podatke_razsirjeno(spletna_soup, leto)
-    if konf and raz:
-        print(f"Obdelal leto {leto}")
-        print(konf[0])
-        print(raz[0])
-
-  
-
-
 
 
 
         
 
 # začasno
-#with open("UVP_projektna_naloga/spletne_strani/sezona_2026.html", "r",  encoding="ISO-8859-1") as dat:
+#with open("spletne_strani/2026.html", "r",  encoding="ISO-8859-1") as dat:
 #    soup1 = BeautifulSoup(dat.read(), "html.parser")
 #
-#print(izlusci_podatke_razsirjeno(soup1, 2026))
+#print(izlusci_statistiko(soup1, 2026))
 
