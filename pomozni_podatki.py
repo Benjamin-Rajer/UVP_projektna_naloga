@@ -11,6 +11,8 @@ LETA = range(1980, 2027)
 
 #============================ URL-JI ===================================
 
+# uporabljeni
+
 # podatki o sezoni
 def SEZONA_URL(leto):
     return f"https://www.basketball-reference.com/leagues/NBA_{leto}.html"
@@ -18,7 +20,10 @@ def SEZONA_URL(leto):
 def SEZONA_IGRE_URL(leto):
     return f"https://www.basketball-reference.com/leagues/NBA_{leto}_standings.html"
 
-# končnica sezone, 
+
+# neuporabljeni
+
+# končnica sezone 
 def KONCNICA_URL(leto):
     return f"https://www.basketball-reference.com/playoffs/NBA_{leto}.html"
 

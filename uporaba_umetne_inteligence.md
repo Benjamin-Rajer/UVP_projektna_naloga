@@ -448,3 +448,96 @@ is there a way to add rows for each year i'm processing instead of overwriting t
 >This gives you one clean CSV containing all years, and you don't need append mode at all.
 >
 >If you're running the scraper **separately for each year**, then `"a"` is the appropriate choice.
+
+
+### Pogovor 6
+
+**Jaz:**  
+i will be using a jupyter notebook, are there any auxillary files that would be good to put in my gitignore?
+
+**ChatGPT:**  
+>Yes. For a Jupyter Notebook project, there are a few **generic auxiliary files/folders** that are usually worth ignoring in Git.
+>
+>A good general-purpose Python/Jupyter `.gitignore` would include:
+>
+>```gitignore
+># Jupyter
+>.ipynb_checkpoints/
+>
+># Python cache
+>__pycache__/
+>*.py[cod]
+>*$py.class
+>
+># Virtual environments
+>.venv/
+>venv/
+>env/
+>ENV/
+>
+># Environment / secrets
+>.env
+>.env.*
+>
+># IDE/editor files
+>.vscode/
+>.idea/
+>
+># OS files
+>.DS_Store
+>Thumbs.db
+>
+># Python packaging
+>*.egg-info/
+>dist/
+>build/
+>
+># Test / coverage caches
+>.pytest_cache/
+>.coverage
+>htmlcov/
+>
+># Temporary files
+>*.tmp
+>*.temp
+>```
+>
+>### For Jupyter specifically
+>
+>The most important one is:
+>
+>```gitignore
+>.ipynb_checkpoints/
+>```
+>
+>Jupyter automatically creates folders like:
+>
+>```text
+>.ipynb_checkpoints/
+>    my_notebook-checkpoint.ipynb
+>```
+>
+>They're just autosave/checkpoint copies, so you normally **don't want them in Git**.
+>
+>### What you generally should NOT ignore
+>
+>Your actual notebook:
+>
+>```text
+>analysis.ipynb
+>```
+>
+>should usually be committed. That's the main source code/documentation of your work.
+>
+>Likewise, things such as:
+>
+>```text
+>.py
+>.csv
+>requirements.txt
+>README.md
+>```
+>
+>should generally be committed **if they're part of the project and reproducibility matters**.
+>
+>One thing to think about separately is **generated data**. If your notebook produces large CSVs, images, models, etc., you may want to ignore those depending on whether they're source data or generated output.
