@@ -6,7 +6,7 @@ Idejo za projekt sem dobil s pomočjo ChatGPT-ja, ki mi je dal seznam potencialn
 
 ## Koda
 
-Za nekatere dele kode, še posebej tiste, ki uporabljajo knjižnico BeautifulSoup, sem uporabil ChatGPT za pomoč. Pogovori so v angleščini.
+Za nekatere dele kode, še posebej tiste, ki uporabljajo knjižnici BeautifulSoup in Pandas, sem uporabil ChatGPT za pomoč. Pogovori so v angleščini.
 
 ### Pogovor 1
 
@@ -541,3 +541,274 @@ i will be using a jupyter notebook, are there any auxillary files that would be 
 >should generally be committed **if they're part of the project and reproducibility matters**.
 >
 >One thing to think about separately is **generated data**. If your notebook produces large CSVs, images, models, etc., you may want to ignore those depending on whether they're source data or generated output.
+
+### Pogovor 7
+
+**Jaz:**  
+how to set the number of shown columns of a table with pandas?
+
+**ChatGPT:**  
+>If you mean **how many columns pandas displays when showing a DataFrame**, use `pd.set_option()`:
+>
+>```python
+>import pandas as pd
+>
+>pd.set_option("display.max_columns", 10)
+>```
+>
+>Now pandas will display at most **10 columns** when you do:
+>
+>```python
+>df
+>```
+>
+>### Common options
+>
+>```python
+>pd.set_option("display.max_columns", None)  # show all columns
+>pd.set_option("display.max_columns", 10)    # show up to 10
+>pd.set_option("display.max_columns", 0)     # effectively hide columns
+>```
+>
+>You can also change it back to the default:
+>
+>```python
+>pd.reset_option("display.max_columns")
+>```
+>
+>If you're using **Jupyter**, simply putting `df` as the last line of a cell displays it as a nice table automatically:
+>
+>```python
+>df
+>```
+>
+>rather than:
+>
+>```python
+>print(df)
+>```
+>
+>You can also control the **number of rows** similarly with:
+>
+>```python
+>pd.set_option("display.max_rows", 20)
+>```
+
+**Jaz:**  
+how to set this for individual tables?
+
+**ChatGPT:**  
+>Yes. If you want the setting to apply to **only one DataFrame**, rather than changing pandas globally, you have a few options.
+>
+>### 1. Best option in Jupyter: use `Styler`
+>
+>If you just want to control how a particular table is **displayed**, you can do:
+>
+>```python
+>df.style
+>```
+>
+>However, `display.max_columns` itself is a **global pandas display setting**, so you can't directly do something like `df.set_option(...)`.
+>
+>### 2. Temporarily change the setting for one display
+>
+>You can use `pd.option_context()`:
+>
+>```python
+>with pd.option_context("display.max_columns", 10):
+    >display(df)
+>```
+>
+>This changes the setting **only inside that block**. Afterward, pandas returns to its previous setting.
+>
+>For example:
+>
+>```python
+>with pd.option_context("display.max_columns", 5):
+    >display(df1)
+>
+>display(df2)
+>```
+>
+>`df1` will be displayed with the temporary setting, while `df2` uses the normal setting.
+>
+>### 3. If you literally want to show only certain columns
+>
+>Often this is cleaner:
+>
+>```python
+>display(df[["name", "year", "points", "rebounds"]])
+>```
+>
+>This doesn't change pandas' display settings at all—you are simply displaying a subset of the DataFrame.
+>
+>**For your project, I'd probably use #3** if you want different tables to show different sets of columns, and `option_context` if you specifically want to control the maximum number of columns displayed.
+
+### Pogovor 8
+
+**Jaz:**  
+how do i draw graphs using pandas?
+
+**ChatGPT:**  
+>Yes. Pandas uses **Matplotlib** underneath for most of its plotting, so you can make graphs directly from a DataFrame.
+>
+>### 1. Basic graph
+>
+>Suppose you have:
+>
+>```python
+>import pandas as pd
+>
+>df = pd.DataFrame({
+>    "year": [2020, 2021, 2022, 2023],
+>    "points": [105, 112, 118, 125]
+>})
+>```
+>
+>You can plot it with:
+>
+>```python
+>df.plot(x="year", y="points")
+>```
+>
+>In a Jupyter Notebook, the graph will be displayed automatically.
+>
+>### 2. Different types of graphs
+>
+>Pandas supports several common plot types:
+>
+>```python
+>df.plot(x="year", y="points", kind="line")
+>```
+>
+>```python
+>df.plot(x="year", y="points", kind="bar")
+>```
+>
+>```python
+>df.plot(x="year", y="points", kind="scatter")
+>```
+>
+>You can also use the shorter methods:
+>
+>```python
+>df.plot.line(x="year", y="points")
+>df.plot.bar(x="year", y="points")
+>df.plot.scatter(x="year", y="points")
+>```
+>
+>### 3. Plot several columns
+>
+>This is particularly useful for your NBA data.
+>
+>For example:
+>
+>```python
+>df.plot(
+>    x="year",
+>    y=["points", "rebounds", "assists"]
+>)
+>```
+>
+>That puts all three series on the same graph.
+>
+>### 4. Plotting a grouped result
+>
+>For example, if you wanted the average points per year:
+>
+>```python
+>povprecje = df.groupby("year")["points"].mean()
+>
+>povprecje.plot()
+>```
+>
+>Or as a bar chart:
+>
+>```python
+>povprecje.plot.bar()
+>```
+>
+>This is a very common pattern with pandas:
+>
+>**filter/group → calculate statistic → plot**
+>
+>### 5. Adding labels/title
+>
+>You can pass Matplotlib options directly:
+>
+>```python
+>df.plot(
+>    x="year",
+>    y="points",
+>    title="Points per year",
+>    xlabel="Year",
+>    ylabel="Points"
+>)
+>```
+>
+>If you want more control, you can also use Matplotlib explicitly:
+>
+>```python
+>import matplotlib.pyplot as plt
+>
+>df.plot(x="year", y="points")
+>
+>plt.title("Points per year")
+>plt.xlabel("Year")
+>plt.ylabel("Points")
+>plt.show()
+>```
+>
+>For your project, I'd recommend learning **`df.plot()` first**. It's very convenient for quickly exploring your scraped NBA data, while Matplotlib becomes useful when you want to customize the graphs more heavily.
+
+### Pogovor 9
+
+**Jaz:** 
+how to rename graph labels in the legend in pandas?
+
+**ChatGPT:**  
+>If you're plotting a DataFrame with pandas, the legend labels usually come from the **column names**.
+>
+>### Easiest way: rename the columns
+>
+>```python
+>df.plot(
+>    x="year",
+>    y=["sales", "expenses"]
+>)
+>```
+>
+>If your columns are called `sales` and `expenses`, those become the legend labels.
+>
+>You can rename them before plotting:
+>
+>```python
+>df.rename(columns={
+>    "sales": "Total Sales",
+>    "expenses": "Total Expenses"
+>}).plot(
+>    x="year",
+>    y=["Total Sales", "Total Expenses"]
+>)
+>```
+>
+>### Or change the legend after plotting
+>
+>This is useful if you **don't want to rename the actual DataFrame columns**:
+>
+>```python
+>ax = df.plot(
+>    x="year",
+>    y=["sales", "expenses"]
+>)
+>
+>ax.legend(["Total Sales", "Total Expenses"])
+>```
+>
+>So:
+>
+>* **Want to change the DataFrame's column names?** → `rename()`
+>* **Only want to change how they appear in the graph?** → `ax.legend(...)`
+>
+>You can also give the plotted series labels directly with Matplotlib, but for normal pandas plots, `ax.legend()` is probably the simplest approach.
+
