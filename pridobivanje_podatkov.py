@@ -183,14 +183,6 @@ def izlusci_igre_razsirjeno(soup, leto):
         gosti = podatek_vrstice(vrstica, "Road")
         gosti_z, gosti_p = razdeli_rezultat(gosti)
 
-        # ne pojavi se vedno
-        nevtralno = podatek_vrstice(vrstica, "Neutral")
-
-        if nevtralno is None:
-            nevtralno_z, nevtralno_p = "", ""
-        else:
-            nevtralno_z, nevtralno_p = razdeli_rezultat(nevtralno)
-
         # zmage, porazi z razliko točk <= 3
         mala_razlika = podatek_vrstice(vrstica, "3")
         mala_z, mala_p = razdeli_rezultat(mala_razlika)
@@ -207,8 +199,6 @@ def izlusci_igre_razsirjeno(soup, leto):
             "porazi doma": doma_p,
             "zmage v gosteh": gosti_z,
             "porazi v gosteh": gosti_p,
-            "zmage nevtralno": nevtralno_z,
-            "porazi nevtralno": nevtralno_p,
             "zmage <= 3": mala_z,
             "porazi <= 3": mala_p,
             "zmage >= 10": velika_z,

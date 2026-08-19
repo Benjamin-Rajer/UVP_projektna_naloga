@@ -969,3 +969,205 @@ does pandas have an option to add points to a line graph?
 >
 >`pandas.plot()` is essentially using Matplotlib underneath, so many Matplotlib line/marker options work here.
 >
+
+### Pogovor 11
+
+**Jaz:**  
+is there a way to make full or dotted horizontal and vertical lines on top of pandas graphs?
+
+**ChatGPT:**  
+>Yes. **Pandas itself doesn't provide much control over grid/reference lines**, but since pandas plotting uses Matplotlib underneath, you can access the Matplotlib `Axes` object without having to explicitly import `matplotlib`.
+>
+>For example:
+>
+>```python
+>import pandas as pd
+>
+>df = pd.DataFrame({
+>    "year": [2020, 2021, 2022, 2023, 2024],
+>    "sales": [50, 65, 60, 80, 95]
+>})
+>
+>ax = df.plot(x="year", y="sales")
+>
+>ax.axhline(y=70, linestyle="--")   # horizontal dotted/dashed line
+>ax.axvline(x=2022, linestyle=":")  # vertical dotted line
+>```
+>
+>You can use different `linestyle` values:
+>
+>* `"-"` → full/solid line
+>* `"--"` → dashed line
+>* `":"` → dotted line
+>* `"-."` → dash-dot
+>
+>### Multiple reference lines
+>
+>You can also add several:
+>
+>```python
+>ax = df.plot(x="year", y="sales")
+>
+>for value in [60, 80]:
+>    ax.axhline(y=value, linestyle="--")
+>
+>for year in [2021, 2023]:
+>    ax.axvline(x=year, linestyle=":")
+>```
+>
+>The important part is that **`df.plot()` returns an `Axes` object**, so you can use `ax.axhline()` and `ax.axvline()` afterward.
+>
+>If you want **full grid lines across the whole graph**, pandas also has:
+>
+>```python
+>df.plot(x="year", y="sales", grid=True)
+>```
+>
+>But for specific horizontal/vertical lines, `axhline()` and `axvline()` are the way to go.
+
+**Jaz:**  
+can i add specific additional labels on the axes of the graph?
+
+**ChatGPT:**  
+>Yes. If you mean **adding extra tick labels at specific values**, you can do that through the `Axes` object.
+>
+>For example:
+>
+>```python
+>import pandas as pd
+>
+>df = pd.DataFrame({
+>    "year": [2020, 2021, 2022, 2023, 2024],
+>    "sales": [50, 65, 60, 80, 95]
+>})
+>
+>ax = df.plot(x="year", y="sales")
+>
+>ax.set_yticks([0, 20, 40, 60, 70, 80, 100])
+>```
+>
+>This makes the y-axis show those specific values.
+>
+>### If you want to add labels without replacing the existing ones
+>
+>You can get the existing ticks and add to them:
+>
+>```python
+>ax = df.plot(x="year", y="sales")
+>
+>ticks = list(ax.get_yticks())
+>ticks.append(70)
+>
+>ax.set_yticks(ticks)
+>```
+>
+>So if the graph originally had:
+>
+>```text
+>0
+>20
+>40
+>60
+>80
+>100
+>```
+>
+>you can add `70` to get:
+>
+>```text
+>0
+>20
+>40
+>60
+>70
+>80
+>100
+>```
+>
+>### You can do the same for the x-axis
+>
+>```python
+>ax.set_xticks([2020, 2021, 2022, 2023, 2024])
+>```
+>
+>And if you want **custom text** instead of the actual values:
+>
+>```python
+>ax.set_xticks([2020, 2022, 2024])
+>ax.set_xticklabels(["Start", "Middle", "End"])
+>```
+>
+>So `set_xticks()` / `set_yticks()` control **where labels appear**, while `set_xticklabels()` / `set_yticklabels()` control **what the labels say**.
+
+
+### Pogovor 12
+
+**Jaz:**  
+how do i write an additional number underneath the current x-axis labels in matplotlib graphs using text?
+
+**ChatGPT:**  
+>If you want an **extra number underneath the existing x-axis labels**, `ax.text()` is a good way to do it.
+>
+>For example, suppose we have months on the x-axis and want to put the **quarter number** underneath them:
+>
+>```python
+>import matplotlib.pyplot as plt
+>
+>months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+>sales = [20, 25, 22, 30, 35, 33]
+>
+>fig, ax = plt.subplots()
+>
+>ax.plot(months, sales)
+>
+># Additional labels underneath the x-axis
+>for i, quarter in enumerate(["Q1", "Q1", "Q1", "Q2", "Q2", "Q2"]):
+>    ax.text(
+>        i,
+>        -0.12,
+>        quarter,
+>        transform=ax.get_xaxis_transform(),
+>        ha="center"
+>    )
+>
+>plt.show()
+>```
+>
+>The important part is:
+>
+>```python
+>ax.text(i, -0.12, quarter,
+>        transform=ax.get_xaxis_transform(),
+>        ha="center")
+>```
+>
+>### What the coordinates mean
+>
+>With:
+>
+>```python
+>transform=ax.get_xaxis_transform()
+>```
+>
+>the coordinates work like this:
+>
+>* `i` → x-axis position
+>* `0` → exactly on the x-axis
+>* negative y values → below the x-axis
+>* `-0.12` → somewhat below the normal labels
+>
+>So you can move the additional labels farther down:
+>
+>```python
+>ax.text(i, -0.20, quarter,
+>        transform=ax.get_xaxis_transform(),
+>        ha="center")
+>```
+>
+>If you're doing this with a **pandas `.plot()`**, you can get the underlying matplotlib axis with:
+>
+>```python
+>ax = df.plot(...)
+>```
+>
+>and then use `ax.text(...)` in exactly the same way.
