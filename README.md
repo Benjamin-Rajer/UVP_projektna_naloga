@@ -11,6 +11,8 @@ Podatke sem vzel iz spletne strani [Basketball Reference](https://www.basketball
 Za pridobivanje podatkov poženite datoteko **main.py**. Dobili boste tri CSV datoteke, ki vsebujejo različne podakte (opisano spodaj).  
 Za analizo pridobljenih podatkov pa odprite datoteko **analiza_podatkov.ipynb**.
 
+## Potrebne knjižnice
+
 ## Podatki v CSV datotekah
 
 

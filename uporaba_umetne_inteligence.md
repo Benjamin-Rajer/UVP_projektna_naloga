@@ -812,3 +812,160 @@ how to rename graph labels in the legend in pandas?
 >
 >You can also give the plotted series labels directly with Matplotlib, but for normal pandas plots, `ax.legend()` is probably the simplest approach.
 
+### Pogovor 10
+
+**Jaz:**  
+is there a way to create a dropdown menu using jupyter and pandas, which would show for example an evolution of something over years?
+
+**ChatGPT:** 
+>Yes. In Jupyter, you can make an interactive **dropdown menu** that changes a pandas/Matplotlib graph depending on the selected value.
+>
+>For example, imagine you have population data for several countries and want a dropdown that lets you choose a country and see its population evolution.
+>
+>The easiest approach is with `ipywidgets`.
+>
+>```python
+>import pandas as pd
+>import matplotlib.pyplot as plt
+>import ipywidgets as widgets
+>from IPython.display import display
+>
+># Example data
+>podatki = pd.DataFrame({
+>    "leto": [2000, 2005, 2010, 2015, 2020, 2025] * 3,
+>    "drzava": ["Slovenia"] * 6 + ["Italy"] * 6 + ["Japan"] * 6,
+>    "prebivalstvo": [
+>        1.99, 2.00, 2.05, 2.06, 2.10, 2.12,
+>        56.9, 58.6, 59.3, 60.8, 59.6, 58.9,
+>        126.9, 127.8, 128.1, 127.1, 126.0, 123.1
+>    ]
+>})
+>
+># Dropdown
+>dropdown = widgets.Dropdown(
+>    options=podatki["drzava"].unique(),
+>    description="Država:"
+>)
+>
+>def narisi(drjava):
+>    podatki_drzave = podatki[podatki["drzava"] == drjava]
+>
+>    plt.figure(figsize=(8, 5))
+>    plt.plot(
+>        podatki_drzave["leto"],
+>        podatki_drzave["prebivalstvo"],
+>        marker="o"
+>    )
+>
+>    plt.xlabel("Leto")
+>    plt.ylabel("Prebivalstvo (milijoni)")
+>    plt.title(f"Razvoj prebivalstva – {drjava}")
+>    plt.grid()
+>    plt.show()
+>
+>widgets.interact(narisi, drjava=dropdown);
+>```
+>
+>You'll get something like:
+>
+>```text
+>Država: [ Slovenia ▼ ]
+>
+>        Population
+>  2.12 |                  ●
+>  2.08 |             ●
+>  2.04 |        ●
+>  2.00 | ●  ●
+>       +--------------------
+>         2000 2005 ... 2025
+>                 Year
+>```
+>
+>When you select **Italy** from the dropdown, the graph is replaced with Italy's evolution. Select **Japan**, and it switches to Japan.
+>
+>### You can also have multiple dropdowns
+>
+>For example, one dropdown could select a **country** and another could select what statistic to display:
+>
+>```python
+>statistika = widgets.Dropdown(
+>    options=["prebivalstvo", "rast"],
+>    description="Statistika:"
+>)
+>```
+>
+>Then your plotting function can use both:
+>
+>```python
+>def narisi(drzava, statistika):
+>    ...
+>```
+>
+>and:
+>
+>```python
+>widgets.interact(
+>    narisi,
+>    drzava=dropdown,
+>    statistika=statistika
+>);
+>```
+>
+>So you can build a fairly nice **interactive data-analysis notebook** without needing to make a full web application.
+>
+>One important distinction: **pandas itself doesn't create the dropdown**. Pandas handles the data, `matplotlib` handles the graph, and **`ipywidgets` provides the interactive controls**.
+
+### Pogovor 11
+
+**Jaz:**  
+does pandas have an option to add points to a line graph?
+
+**ChatGPT:**  
+>Yes. If you're using `pandas.DataFrame.plot()`, points are shown on a line by setting a **marker**.
+>
+>For example:
+>
+>```python
+>df.plot(
+>    x="year",
+>    y="value",
+>    marker="o"
+>)
+>```
+>
+>This gives you a line with a circle at each data point.
+>
+>You can also change the marker:
+>
+>```python
+>marker="o"   # circles
+>marker="s"   # squares
+>marker="^"   # triangles
+>marker="x"   # x's
+>```
+>
+>So for something like:
+>
+>```python
+>tocke.plot(
+>    x="leto",
+>    y=["3 točke na igro", "2 točki na igro"],
+>    marker="o"
+>)
+>```
+>
+>you'd get **both lines with points marked**.
+>
+>You can also control the point size with Matplotlib's `markersize`:
+>
+>```python
+>tocke.plot(
+>    x="leto",
+>    y="3 točke na igro",
+>    marker="o",
+>    markersize=5
+>)
+>```
+>
+>`pandas.plot()` is essentially using Matplotlib underneath, so many Matplotlib line/marker options work here.
+>
