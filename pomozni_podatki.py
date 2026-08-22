@@ -11,38 +11,12 @@ LETA = range(1980, 2027)
 
 #============================ URL-JI ===================================
 
-# uporabljeni
 
-# podatki o sezoni
 def SEZONA_URL(leto):
     return f"https://www.basketball-reference.com/leagues/NBA_{leto}.html"
 
 def SEZONA_IGRE_URL(leto):
     return f"https://www.basketball-reference.com/leagues/NBA_{leto}_standings.html"
-
-
-# neuporabljeni
-
-# končnica sezone 
-def KONCNICA_URL(leto):
-    return f"https://www.basketball-reference.com/playoffs/NBA_{leto}.html"
-
-# podatki o vseh tekmah, razdeljenih po mesecih - oktober do junij
-def TEKME_URL(leto, mesec):
-    return f"https://www.basketball-reference.com/leagues/NBA_{leto}_games-{mesec}.html"
-
-# podatki o ekipi v sezoni, vsaka ekipa je podana s tričkrovno kodo
-def EKIPA_URL(koda, leto):
-    return f"https://www.basketball-reference.com/teams/{koda}/{leto}.html"
-
-
-# splošni podatki o igralcu, igralčev id je sestavljen iz delov imena in priimka ter iz številke
-def IGRALEC_URL(id):
-    return f"https://www.basketball-reference.com/players/{id[0]}/{id}.html"
-
-# podatki o igralcu v sezoni
-def IGRALEC_SEZONA_URL(id, leto):
-    return f"https://www.basketball-reference.com/players/{id[0]}/{id}/gamelog/{leto}/"
 
 
 #============================= PREVAJALNIK ==================================

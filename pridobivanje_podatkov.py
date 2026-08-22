@@ -51,7 +51,6 @@ def izlusci_statistiko(soup, leto):
     tabela = soup.find("table", id="totals-team").find("tbody")
     vrstice = tabela.find_all("tr")
 
-
     for vrstica in vrstice:
 
         # id, ime
@@ -115,8 +114,6 @@ def izlusci_statistiko(soup, leto):
 def izlusci_igre_konference(soup, leto):
     seznam_podatkov = []
 
-    # tabeli po konferencah - od leta 1971 naprej - prej je samo brez E in W, na koncu je underscore
-    # lahko to daš v ločeno funkcijo pa daš še default value da je "" ali pa kaj takega
     for smer in ["E", "W"]:
         tabela = soup.find("table", id = f"divs_standings_{smer}").find("tbody")
         vrstice = tabela.find_all("tr")
@@ -206,14 +203,3 @@ def izlusci_igre_razsirjeno(soup, leto):
         })
 
     return seznam_podatkov
-
-
-
-        
-
-# začasno
-#with open("spletne_strani/2026.html", "r",  encoding="ISO-8859-1") as dat:
-#    soup1 = BeautifulSoup(dat.read(), "html.parser")
-#
-#print(izlusci_statistiko(soup1, 2026))
-

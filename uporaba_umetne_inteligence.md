@@ -1171,3 +1171,71 @@ how do i write an additional number underneath the current x-axis labels in matp
 >```
 >
 >and then use `ax.text(...)` in exactly the same way.
+
+
+### Pogovor 13
+
+**Jaz:**  
+how do i get zig-zag x axis labels in pandas?
+
+**ChatGPT:**  
+>If you mean **alternating the x-axis labels between two vertical levels**, like:
+>
+>```text
+>   A       C       E
+>     B       D       F
+>```
+>
+>you can do it in Matplotlib (and therefore in a pandas plot) by manually setting the tick labels' vertical positions.
+>
+>For example, suppose we have monthly sales:
+>
+>```python
+>import pandas as pd
+>import matplotlib.pyplot as plt
+>
+>df = pd.DataFrame({
+>    "month": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+>    "sales": [20, 35, 28, 40, 32, 45]
+>})
+>
+>ax = df.plot(x="month", y="sales", kind="bar")
+>
+>labels = ax.get_xticklabels()
+>
+>for i, label in enumerate(labels):
+>    if i % 2 == 0:
+>        label.set_y(-0.02)
+>    else:
+>        label.set_y(-0.08)
+>
+>plt.show()
+>```
+>
+>The important part is:
+>
+>```python
+>for i, label in enumerate(labels):
+>    if i % 2 == 0:
+>        label.set_y(-0.02)
+>    else:
+>        label.set_y(-0.08)
+>```
+>
+>`i % 2` alternates between even and odd labels.
+>
+>### If you want it more pronounced
+>
+>```python
+>for i, label in enumerate(ax.get_xticklabels()):
+>    label.set_y(-0.02 if i % 2 == 0 else -0.10)
+>```
+>
+>So you'd get something roughly like:
+>
+>```text
+>Jan       Mar       May
+>    Feb       Apr       Jun
+>```
+>
+>This works with a pandas `.plot()` because `df.plot()` returns a **Matplotlib Axes object**. That's why you can use Matplotlib methods like `get_xticklabels()` on it.
